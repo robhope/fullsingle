@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.2
+ * @version 0.0.3
  * @license GPL 2.0
  *
 Plugin Name: FullSingle
@@ -10,7 +10,7 @@ Plugin URI: https://onepagelove.com/fullsingle
 Description: A collection of beautiful Landing Page layouts for SiteOrigin's Free Page Builder.
 Author: One Page Love
 Author URI: https://onepagelove.com
-Version: 0.0.1
+Version: 0.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: fullsingle
