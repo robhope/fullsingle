@@ -15,7 +15,7 @@ $layouts['split'] = array(
 
     'name' => __('Split', 'fullsingle'), 
 
-    'description' => __('Donec gravida commodo felis vel venenatis. Morbi sit amet tempus augue. Aenean sagittis condimentum hendrerit.', 'fullsingle'),
+    'description' => __('Yellow.', 'fullsingle'),
 
     'screenshot' => 'http://localhost/wp-content/uploads/2017/07/blank.jpg',  
 

@@ -87,7 +87,11 @@ class PageTemplater {
 
 		// Add your templates to this array.
 		$this->templates = array(	
-			'templates/page-fullsingle.php' => 'FullSingle',										
+			'templates/page-fullsingle-grid.php' 	=> 'FullSingle - Grid',	
+			'templates/page-fullsingle-me.php' 		=> 'FullSingle - Me',	
+			'templates/page-fullsingle-split.php' 	=> 'FullSingle - Split',	
+			'templates/page-fullsingle-vitae.php' 	=> 'FullSingle - Vitae',	
+													
 		);
 			
 	} 

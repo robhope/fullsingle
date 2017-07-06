@@ -15,7 +15,7 @@ $layouts['me'] = array(
 
     'name' => __('Me', 'fullsingle'), 
 
-    'description' => __('Donec gravida commodo felis vel venenatis. Morbi sit amet tempus augue. Aenean sagittis condimentum hendrerit.', 'fullsingle'),
+    'description' => __('Red.', 'fullsingle'),
 
     'screenshot' => 'http://localhost/wp-content/uploads/2017/07/me.jpg',  
 
