@@ -1,7 +1,143 @@
 //-------------------------------------------------------------------------------
-// Add your content styles here, you can delete everything below this line
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0; margin-top: 10px; }
+    to   { opacity: 1; margin-top: 0;}
+}
+
+//-------------------------------------------------------------------------------
+// Content
 //-------------------------------------------------------------------------------
 
 body.page-template-page-fullsingle-vitae {
-	background-color: green;
+	background-color: #FFF; 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 33px;
+	letter-spacing: -0.5px;
+	color: #555;
+	animation: fadein 2s;
+
+	//-------------------------------------------------------------------------------
+	// Site Origin Page Builder Global Styles
+	//-------------------------------------------------------------------------------
+
+	.panel-grid {
+		margin-bottom: 0 !important; // reset
+	}
+
+	p {
+		margin-bottom: 28px;
+		color: #555;
+
+	}
+
+	ul {
+		li {
+			list-style: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+	}
+
+	h3.widget-title {
+		font-weight: 600;
+		font-size: 13px;
+		text-transform: uppercase;
+		color: #444;
+		letter-spacing: 1px;
+	}
+
+	.panel-row-style {
+		padding: 160px;
+	}
+
+	.col-wider {
+		max-width: 66%;
+	}
+
+	//-------------------------------------------------------------------------------
+	// Sections
+	//-------------------------------------------------------------------------------
+
+
+	.about {
+
+		img {
+			max-width: 160px;
+			height: auto;
+		}
+
+		h3.widget-title {
+			text-transform: none;
+			letter-spacing: -0.5px;
+			font-size: 32px;
+			line-height: 36px;
+			margin-bottom: 28px;
+		}
+
+	}
+
+	.history, .networks {
+		background-color: #222;
+		color: #EEE;
+
+		p {
+			color: #EEE;
+		}
+
+		a {
+			color: #EEE;
+
+			&:hover {
+				color: #FFF;
+			}
+		}
+
+		ul {
+			li {
+				list-style: none;
+				em {
+					color: #666;
+					padding-left: 24px;
+				}
+			}
+		}
+	}
+
+	.history.panel-row-style {
+		padding-bottom: 0;
+	}
+
+	.contact {
+		background-color: #151515;
+		color: #DDD;
+
+		p {
+			color: #DDD;
+		}
+
+		a {
+			color: #DDD;
+
+			&:hover {
+				color: #FFF;
+			}
+		}
+
+		ul {
+			li {
+				list-style: none;
+			}
+		}		
+	}
 }
