@@ -17,7 +17,7 @@ $layouts['split'] = array(
 
     'description' => __('Yellow.', 'fullsingle'),
 
-    'screenshot' => 'http://localhost/wp-content/uploads/2017/07/blank.jpg',  
+    'screenshot' => 'https://demo.onepagelove.com/fullsingle/wp-content/uploads/sites/4/2017/07/blank.jpg',  
 
     'widgets' =>
     array(

@@ -17,7 +17,7 @@ $layouts['me'] = array(
 
     'description' => __('Red.', 'fullsingle'),
 
-    'screenshot' => 'http://localhost/wp-content/uploads/2017/07/me.jpg',  
+    'screenshot' => 'https://demo.onepagelove.com/fullsingle/wp-content/uploads/sites/4/2017/07/blank.jpg',  
 
     'widgets' =>
     array(
