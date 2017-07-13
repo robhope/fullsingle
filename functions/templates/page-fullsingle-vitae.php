@@ -3,7 +3,7 @@
  * Template Name: FullSingle - Vitae
  * 
  * @package fullsingle
- * @since fullsingle 0.0.1
+ * @since fullsingle 0.0.7
  * @license GPL 2.0
  * 
  */
@@ -28,6 +28,7 @@
 	<?php while ( have_posts() ) : the_post(); ?>
 
 		<?php the_content() ?>
+		<?php include('credits.php'); ?>
 		
 	<?php endwhile; ?>
 
