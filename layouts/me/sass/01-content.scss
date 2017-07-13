@@ -1,7 +1,120 @@
 //-------------------------------------------------------------------------------
-// Add your content styles here, you can delete everything below this line
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+//-------------------------------------------------------------------------------
+// Content
 //-------------------------------------------------------------------------------
 
 body.page-template-page-fullsingle-me {
-	background-color: red; 
+	background-color: #FFF; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 60px;
+	letter-spacing: -0.5px;
+	color: #999;
+	
+
+	//-------------------------------------------------------------------------------
+	// Site Origin Page Builder Global Styles
+	//-------------------------------------------------------------------------------
+
+	.panel-grid {
+		margin-bottom: 0 !important; // reset
+	}
+
+	p {
+		margin-bottom: 28px;
+		color: #999;
+
+	}
+
+	//-------------------------------------------------------------------------------
+	// Sections
+	//-------------------------------------------------------------------------------
+
+
+	.fs-me {
+		padding: 10vh 10vw;
+
+	  	.panel-grid-cell {
+	  		height: 80vh;
+			display: flex;
+	  		flex-direction: column;
+
+		  	.so-panel:nth-child(1) { // .logo
+				flex: 1 1 auto;
+		  		display: flex;
+		  		flex-direction: column;
+		  		align-self: left;
+		  		animation: fadein 2s;
+
+				img {
+					max-width: 165px;
+					height: auto;
+				}
+			}
+
+			.so-panel:nth-child(2) { // .bio
+				flex: 1 1 auto;
+		  		display: flex;
+		  		flex-direction: column;
+				justify-content: center;
+				animation: fadein 4s;
+				letter-spacing: -1px;
+
+				a {
+					color: #CCC;
+					&:hover {
+						color: #FFF;
+					}
+				}
+			}
+
+			.so-panel:nth-child(3) { // .network
+				flex: 1 1 auto;
+	  			display: flex;
+	  			flex-direction: column;
+	  			animation: fadein 6s;
+
+	  			.network {
+				    margin-top: auto;
+	  			}
+
+
+	  			.sow-social-media-button {
+	  				padding: 0;
+	  				margin: 0 16px 0 0;
+	  				font-size: 22px;
+	  				line-height: 22px;
+	  				color: #999;
+	  			}
+
+	  			.sow-icon-fontawesome {
+	  				color: #999;
+
+	  				&:hover {
+	  					color: #FFF;
+	  				}
+
+	  			}
+
+			}
+
+	  	}
+		
+	}
+
 }
