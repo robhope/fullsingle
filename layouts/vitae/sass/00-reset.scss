@@ -94,7 +94,7 @@ p 	{
 }
 
 //-------------------------------------------------------------------------------
-// Credits
+// Credits - white text
 //-------------------------------------------------------------------------------
 
 #credits {
@@ -106,4 +106,14 @@ p 	{
 	margin-top: -40px;
 	font-size: 12px;
 	line-height: 12px;
+	color: #FFFFFF !important;
+
+	a {
+		color: #FFFFFF !important;
+		opacity: 0.3;
+
+		&:hover {
+			opacity: 0.5;
+		}
+	}
 }
