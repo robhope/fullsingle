@@ -1,7 +1,167 @@
 //-------------------------------------------------------------------------------
-// Add your content styles here, you can delete everything below this line
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+$color-background 			: #061c30;
+$color-text					: #848d96;
+$color-link					: #848d96;
+$color-link-hover			: #f4de8a;
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+//-------------------------------------------------------------------------------
+// Content
 //-------------------------------------------------------------------------------
 
 body.page-template-page-fullsingle-split {
-	background-color: yellow; 
+	background-color: $color-background; 
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 33px;
+	letter-spacing: -0.2px;
+	color: $color-text;
+	animation: fadein 2s;
+
+	//-------------------------------------------------------------------------------
+	// Site Origin Page Builder Global Styles
+	//-------------------------------------------------------------------------------
+
+	.panel-grid {
+		margin-bottom: 0 !important; // reset
+	}
+
+	p {
+		// margin-bottom: 28px;
+		color: $color-text;
+
+	}
+
+	ul {
+		li {
+			list-style: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+	}
+
+	.panel-row-style {
+		// padding: 160px;
+	}
+
+	//-------------------------------------------------------------------------------
+	// Sections
+	//-------------------------------------------------------------------------------
+
+	.fs-split {
+
+		.split-left {
+			height: 100vh;
+		}
+
+		.split-right {
+			height: 100vh;
+
+			.split-intro {
+				padding: 80px 80px 0 80px;
+				font-weight: 600;
+				font-size: 64px; 
+				line-height: 80px;
+				letter-spacing: -2px;
+
+				p {
+					color: #CCC;
+				}
+				
+
+				h3 {
+					font-weight: 400;
+					text-transform: uppercase;
+					font-size: 16px; 
+					line-height: 16px;
+					margin-bottom: 40px;
+					letter-spacing: 0.4px;
+					color: #058caf;
+					// font-family: 'Lora', serif;
+				}
+
+			}
+
+			.split-bio {
+				padding: 40px 80px 0 80px;
+				font-family: 'Lora', serif;
+
+
+				p {
+					color: $color-text;
+				}
+	
+				a {
+					color: $color-link;
+					transition-duration: 0.5s;
+					border-bottom: 1px dotted $color-link;
+
+					&:hover {
+						color: $color-link-hover;
+						transition-duration: 0.1s;
+						border-bottom: 1px dotted $color-link-hover;
+					}
+				}			
+
+			}
+
+			.split-lists {
+				padding: 60px 80px 40px 80px;
+
+					h3 {
+						font-weight: 400;
+						text-transform: uppercase;
+						font-size: 11px;
+						line-height: 11px;
+						margin-bottom: 31px;
+						color: $color-text;
+						letter-spacing: 2px;
+						opacity: 0.5;
+						// font-family: 'Lora', serif;
+					}
+
+					ul {
+						li {
+							font-size: 16px;
+							line-height: 16px;	
+							margin-bottom: 8px;
+							
+
+							a {
+								color: $color-link;
+								transition-duration: 0.5s;
+
+								&:hover {
+									color: $color-link-hover;
+									transition-duration: 0.1s;
+								}
+							}
+							
+						}
+					}
+			}
+
+		}
+  
+	}
+
 }

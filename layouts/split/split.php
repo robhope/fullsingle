@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.0.1
+ * @since fullsingle 0.0.9
  * @license GPL 2.0
  * 
  */
@@ -15,9 +15,9 @@ $layouts['split'] = array(
 
     'name' => __('Split', 'fullsingle'), 
 
-    'description' => __('Yellow.', 'fullsingle'),
+    'description' => __('Split is a centrally-divided layout for a professional online presense with a big image image left with alongside content.', 'fullsingle'),
 
-    'screenshot' => 'https://demo.onepagelove.com/fullsingle/wp-content/uploads/sites/4/2017/07/blank.jpg',  
+    'screenshot' => 'https://demo.onepagelove.com/fullsingle/wp-content/uploads/sites/4/2017/07/split.jpg',  
 
     'widgets' =>
     array(

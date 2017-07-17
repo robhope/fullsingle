@@ -108,12 +108,19 @@ p 	{
 	line-height: 12px;
 	color: #FFFFFF !important;
 
-	a {
-		color: #FFFFFF !important;
+	.credit {
 		opacity: 0.3;
+		transition-duration: 0.3s;
 
 		&:hover {
-			opacity: 0.5;
+			opacity: 0.8;
+			transition-duration: 0.1s;
 		}
+
+		a {
+			color: #FFFFFF !important;
+		}	
+
 	}
+
 }
