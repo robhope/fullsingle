@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.1
+ * @version 0.0.10
  * @license GPL 2.0
  *
 */
@@ -13,12 +13,12 @@
 
 function fullsingle_prebuilt_layouts($layouts) {
 
-$layout_dir = $_SERVER['DOCUMENT_ROOT']. '/wp-content/plugins/fullsingle/layouts/';
+	$layout_dir = plugin_dir_path( __FILE__ ) . '../layouts/';
 
-require_once( $layout_dir . 'grid/grid.php');
-require_once( $layout_dir . 'me/me.php');
-require_once( $layout_dir . 'split/split.php');
-require_once( $layout_dir . 'vitae/vitae.php');
+	require_once( $layout_dir . 'grid/grid.php');
+	require_once( $layout_dir . 'me/me.php');
+	require_once( $layout_dir . 'split/split.php');
+	require_once( $layout_dir . 'vitae/vitae.php');
 
 	return $layouts;
 

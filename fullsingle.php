@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.9
+ * @version 0.0.10
  * @license GPL 2.0
  *
 Plugin Name: FullSingle
@@ -10,7 +10,7 @@ Plugin URI: https://onepagelove.com/fullsingle
 Description: Beautiful Landing Page layouts for SiteOrigin's Free Page Builder.
 Author: One Page Love
 Author URI: https://onepagelove.com
-Version: 0.0.9
+Version: 0.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: fullsingle
@@ -23,7 +23,7 @@ Text Domain: fullsingle
 # FullSingle
 # ------------------------------------------------------------------------
 
-$plugin_dir = $_SERVER['DOCUMENT_ROOT']. '/wp-content/plugins/fullsingle/';
+$plugin_dir = plugin_dir_path( __FILE__ );
 
 require_once( $plugin_dir . '/functions/function-layouts.php'    				);  # Site Origin Layouts
 require_once( $plugin_dir . '/functions/function-enqueue-page-templates.php'    );  # Enqueue Page Templates
