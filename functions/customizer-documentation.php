@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.0.8
+ * @version 0.0.11
  * @license GPL 2.0
  *
 */
@@ -32,10 +32,17 @@ function fullsingle_customizer_setup_documentation ( $wp_customize ) {
         'priority'  => 801,
         'description' => '<span style="font-style: normal">
         <ul>
-        <li><b>Video:</b> <a href="h#">FullSingle Setup</a></li>
-        <li><b>Example:</b> <a href="https://demo.onepagelove.com/fullsingle" target="_blank">FullSingle Demos</a></li>
+        <li><b>Setup:</b> <a href="https://onepagelove.com/go/fullsingle-setup">FullSingle 1min Setup Video</a></li>
+        <li><b>Examples:</b> <a href="https://demo.onepagelove.com/fullsingle" target="_blank">FullSingle Demos</a></li>
+        <li><b>Newsletter:</b> <a href="https://onepagelove.com/go/fullsingle-newsletter">New Layouts -> Inbox</a></li>
         <li><b>Help?</b> <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_customizer_setup_support_option">Visit Support Panel</a></li>
         </ul>
+        <h3>Setup Videos - Layout Specific 🎞</h3>
+        <ul>
+            <li><b>Me:</b>      <a href="#">Watch</a></li>
+            <li><b>Split:</b>   <a href="#">Watch</a></li>
+            <li><b>Vitae:</b>   <a href="#">Watch</a></li>
+        </ul>       
         </span>',        
     ));        
 

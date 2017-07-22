@@ -33,6 +33,13 @@ body.page-template-page-fullsingle-me {
 
 	.panel-grid {
 		margin-bottom: 0 !important; // reset
+
+		.panel-row-style { // Need to include within layout cells on future Page Builder update
+			background-image:url(https://s3.amazonaws.com/fullsingle/me-bg.jpg);
+			background-position:center center;
+			background-size:cover 
+		} 
+
 	}
 
 	p {
@@ -118,3 +125,6 @@ body.page-template-page-fullsingle-me {
 	}
 
 }
+
+
+	

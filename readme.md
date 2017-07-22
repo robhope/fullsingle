@@ -1,32 +1,19 @@
-## FullSingle ##
-Contributors: One Page Love
-Requires at least: 4.8
-Tested up to: 4.8
-Stable tag: 0.0.10 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Full Site. Single Page. 
 
-**FullSingle** - Beautiful Landing Page layouts for SiteOrigin's Free Page Builder.
+[FullSingle](https://onepagelove.com/fullsingle) ia a collection of beautiful free Landing Page layouts for SiteOrigin's Page Builder. All layouts are designed and built by [One Page Love](https://onepagelove.com). 
 
-## Description ##
-A collection of beautiful Landing Page layouts for SiteOrigin's Free Page Builder. Designed and built by One Page Love.
+Changes here are pushed to our [plugin page](https://wordpress.org/plugins/fullsingle/) on WordPress.org. This is where you should download stable releases.
 
-## Installation ##
-1. Upload \”FullSingle\" to the \"/wp-content/plugins/\" directory.
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
+## Useful Links
 
-## Frequently Asked Questions ##
-Soon
+* [FullSingle Promo Page](https://onepagelove.com/fullsingle)
+* [FullSingle Newlsetter](https://onepagelove.com/go/fullsingle-newsletter)
+* [FullSingle Setup Video Tutorial](https://onepagelove.com/go/fullsingle-setup)
+* [FullSingle Demos](https://demo.onepagelove.com/fullsingle)
 
-## Screenshots ##
-1. 
+Hope you can make something awesome with FullSingle!
 
-## Changelog ##
+Cheers,
+Rob
+[@robhope](https://twitter.com/robhope)
 
-### 0.0.1 ###
-* Initial Release - semi-working framework
-
-## Upgrade Notice ##
-
-### 0.0.1 ###
-* Initial Release - semi-working framework

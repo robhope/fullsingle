@@ -12,7 +12,8 @@
 $color-background 			: #061c30;
 $color-text					: #848d96;
 $color-link					: #848d96;
-$color-link-hover			: #f4de8a;
+$color-link-hover			: #ca486d; // #f4de8a;
+$color-maverick		        : #47bec7; // #058caf;
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -69,11 +70,17 @@ body.page-template-page-fullsingle-split {
 
 	.fs-split {
 
-		.split-left {
+		.split-image {
 			height: 100vh;
+
+			// .panel-widget-style { // Need to include within layout cells on future Page Builder update
+			background-image:url(https://s3.amazonaws.com/fullsingle/split-bg.jpg);
+			background-position:center center;
+			background-size:cover 
+
 		}
 
-		.split-right {
+		.split-content {
 			height: 100vh;
 
 			.split-intro {
@@ -86,7 +93,6 @@ body.page-template-page-fullsingle-split {
 				p {
 					color: #CCC;
 				}
-				
 
 				h3 {
 					font-weight: 400;
@@ -95,8 +101,7 @@ body.page-template-page-fullsingle-split {
 					line-height: 16px;
 					margin-bottom: 40px;
 					letter-spacing: 0.4px;
-					color: #058caf;
-					// font-family: 'Lora', serif;
+					color: $color-maverick;
 				}
 
 			}
@@ -120,6 +125,7 @@ body.page-template-page-fullsingle-split {
 						transition-duration: 0.1s;
 						border-bottom: 1px dotted $color-link-hover;
 					}
+
 				}			
 
 			}
@@ -127,37 +133,40 @@ body.page-template-page-fullsingle-split {
 			.split-lists {
 				padding: 60px 80px 40px 80px;
 
-					h3 {
-						font-weight: 400;
-						text-transform: uppercase;
-						font-size: 11px;
-						line-height: 11px;
-						margin-bottom: 31px;
-						color: $color-text;
-						letter-spacing: 2px;
-						opacity: 0.5;
-						// font-family: 'Lora', serif;
-					}
+				h3 {
+					font-weight: 400;
+					text-transform: uppercase;
+					font-size: 11px;
+					line-height: 11px;
+					margin-bottom: 31px;
+					color: $color-text;
+					letter-spacing: 2px;
+					opacity: 0.5;
+				}
 
-					ul {
-						li {
-							font-size: 16px;
-							line-height: 16px;	
-							margin-bottom: 8px;
-							
+				ul {
 
-							a {
-								color: $color-link;
-								transition-duration: 0.5s;
+					li {
+						font-size: 16px;
+						line-height: 16px;	
+						margin-bottom: 8px;
+						
 
-								&:hover {
-									color: $color-link-hover;
-									transition-duration: 0.1s;
-								}
+						a {
+							color: $color-link;
+							transition-duration: 0.5s;
+
+							&:hover {
+								color: $color-link-hover;
+								transition-duration: 0.1s;
 							}
-							
+
 						}
+						
 					}
+
+				}
+
 			}
 
 		}

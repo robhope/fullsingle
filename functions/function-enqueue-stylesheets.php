@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.3
+ * @version 0.0.11
  * @license GPL 2.0
  *
 */
@@ -15,13 +15,7 @@ function fullsingle_load_plugin_styles() {
 
 	$plugin_url = plugin_dir_url( __FILE__ );
 
-	if ( is_page_template( 'templates/page-fullsingle-grid.php' ) ) {
-
-	    wp_enqueue_style( 'fullsingle-style', $plugin_url . '../layouts/grid/grid.css'  	, 10 );
-
-	}
-
-	elseif  ( is_page_template( 'templates/page-fullsingle-me.php' ) ) {
+	if  ( is_page_template( 'templates/page-fullsingle-me.php' ) ) {
 
 	    wp_enqueue_style( 'fullsingle-style', $plugin_url . '../layouts/me/me.css'  	 	, 10 );
 

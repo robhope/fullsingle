@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.0.10
+ * @since fullsingle 0.0.11
  * @license GPL 2.0
  * 
  */
@@ -17,9 +17,9 @@ $layouts[ 'me' ] = array_merge(
 
 		'name' => __('Me', 'fullsingle'), 
 
-    	'description' => __('Me is a slick, personal One Page layout for any individual and features a big background image.', 'fullsingle'),
+    	'description' => __('Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo,  bio and icons.', 'fullsingle'),
     	
-    	'screenshot' => 'https://demo.onepagelove.com/fullsingle/wp-content/uploads/sites/4/2017/07/me.jpg',  
+    	'screenshot' => 'https://s3.amazonaws.com/fullsingle/me-thumb.jpg',  
 
 	),
 

@@ -3,7 +3,7 @@
  * Template Name: FullSingle - Me
  * 
  * @package fullsingle
- * @since fullsingle 0.0.7
+ * @since fullsingle 0.0.11
  * @license GPL 2.0
  * 
  */
@@ -25,12 +25,16 @@
 
 <body <?php body_class(); ?> > 
 
-	<?php while ( have_posts() ) : the_post(); ?>
+	<div id="fullsingle">
 
-		<?php the_content() ?>
-		<?php include('credits.php'); ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
-	<?php endwhile; ?>
+			<?php the_content() ?>
+			<?php include('credits.php'); ?>
+
+		<?php endwhile; ?>
+
+	</div><!-- / #fullsingle -->
 
 <?php wp_footer(); ?>
 
