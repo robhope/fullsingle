@@ -1,22 +1,14 @@
 <?php
-
-/**
- * @package FullSingle
- * @version 0.0.12
- * @license GPL 2.0
- *
+/*
 Plugin Name: FullSingle
 Plugin URI: https://onepagelove.com/fullsingle
-Description: Beautiful Landing Page layouts for SiteOrigin's Free Page Builder.
+Description: Beautiful Free Landing Page layouts for SiteOrigin's Page Builder.
+Version: 0.1.0
 Author: One Page Love
 Author URI: https://onepagelove.com
-Version: 0.0.12
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: fullsingle
- *
- * Copyright 2017 One Page Love (email: support@onepagelove.com)
- *
 */
 
 # ------------------------------------------------------------------------

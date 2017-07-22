@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.0.12
+Stable tag: 0.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Contributors: robdelete
@@ -34,8 +34,11 @@ No, only with SiteOrigin's Page Builder.
 
 == Changelog ==
 
+= 0.1.0 - 22 July 2017 =
+* Official BETA Release
+
 = 0.0.12 - 22 July 2017 =
-* Official Release with 3 FullSingle layouts
+* Ready with 3 FullSingle layouts
 
 = 0.0.11 - 20 July 2017 =
 * Feature: TGM Plugin Activation
@@ -72,5 +75,5 @@ No, only with SiteOrigin's Page Builder.
 
 == Upgrade Notice ==
 
-= 0.0.12 -  22 July 2017 =
-* Official Release with 3 FullSingle layouts
+= 0.1.0 - 22 July 2017 =
+* Official BETA Release
