@@ -19,7 +19,7 @@ $layouts[ 'vitae' ] = array_merge(
 
       'description' => __('Vitae is a clean, long-scrolling Curriculum Vitae layout. Features include intro image, biography, work history, networks and contact details.', 'fullsingle'),
       
-      'screenshot' => 'https://s3.amazonaws.com/fullsingle/vitae-thumb.jpg',  
+      'screenshot' => 'vitae.jpg',  
 
   ),
 

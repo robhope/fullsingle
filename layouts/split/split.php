@@ -13,16 +13,16 @@
 
 $layouts[ 'split' ] = array_merge(
 
-  array(
+	array(
 
-    'name' => __('Split', 'fullsingle'), 
+		'name' => __('Split', 'fullsingle'), 
 
-      'description' => __('Split is a centrally-divided layout for the modern professional. Features include a big image left (or right) with alongside customizable content.', 'fullsingle'),
-      
-      'screenshot' => 'https://s3.amazonaws.com/fullsingle/split-thumb.jpg',  
+		'description' => __('Split is a centrally-divided layout for the modern professional. Features include a big image left (or right) with alongside customizable content.', 'fullsingle'),
 
-  ),
+		'screenshot' => 'split.jpg',  
 
-  json_decode( file_get_contents( plugin_dir_path( __FILE__ ) . 'split.json' ), true )
+	),
+
+	json_decode( file_get_contents( plugin_dir_path( __FILE__ ) . 'split.json' ), true )
 
 );

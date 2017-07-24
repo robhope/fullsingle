@@ -19,7 +19,7 @@ $layouts[ 'me' ] = array_merge(
 
     	'description' => __('Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo,  bio and icons.', 'fullsingle'),
     	
-    	'screenshot' => 'https://s3.amazonaws.com/fullsingle/me-thumb.jpg',  
+    	'screenshot' => 'me.jpg',  
 
 	),
 

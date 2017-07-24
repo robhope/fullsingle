@@ -92,35 +92,3 @@ body {
 p 	{
 	color: #000000;
 }
-
-//-------------------------------------------------------------------------------
-// Credits - white text
-//-------------------------------------------------------------------------------
-
-#credits {
-	display: block;
-	text-align: left;
-	height: 20px; 
-	padding: 10px 20px;
-	margin: 0;
-	margin-top: -40px;
-	font-size: 12px;
-	line-height: 12px;
-	color: #FFFFFF !important;
-
-	.credit {
-		opacity: 0.3;
-		transition-duration: 0.3s;
-
-		&:hover {
-			opacity: 0.8;
-			transition-duration: 0.1s;
-		}
-
-		a {
-			color: #FFFFFF !important;
-		}	
-
-	}
-
-}

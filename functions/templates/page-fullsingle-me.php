@@ -3,7 +3,7 @@
  * Template Name: FullSingle - Me
  * 
  * @package fullsingle
- * @since fullsingle 0.0.11
+ * @since fullsingle 0.1.1
  * @license GPL 2.0
  * 
  */
@@ -30,7 +30,6 @@
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php the_content() ?>
-			<?php include('credits.php'); ?>
 
 		<?php endwhile; ?>
 

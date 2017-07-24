@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Contributors: robdelete
@@ -33,6 +33,9 @@ A collection of beautiful free Landing Page layouts for SiteOrigin's Page Builde
 No, only with SiteOrigin's Page Builder.
 
 == Changelog ==
+
+= 0.1.1 - 24 July 2017 =
+* Removal of FullSingle credits
 
 = 0.1.0 - 22 July 2017 =
 * Official BETA Release
@@ -75,5 +78,5 @@ No, only with SiteOrigin's Page Builder.
 
 == Upgrade Notice ==
 
-= 0.1.0 - 22 July 2017 =
-* Official BETA Release
+= 0.1.1 - 24 July 2017 =
+* Removal of FullSingle credits
