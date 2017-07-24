@@ -2,14 +2,16 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.0.11
+ * @since fullsingle 0.1.2
  * @license GPL 2.0
  * 
  */
 
 # ------------------------------------------------------------------------
-# Me
+# Upcoming notice
 # ------------------------------------------------------------------------
+
+$plugin_url = plugin_dir_url( __FILE__ );
 
 $layouts[ 'upcoming' ] = array_merge(
 
@@ -19,7 +21,7 @@ $layouts[ 'upcoming' ] = array_merge(
 
     	'description' => __('FullSingle launched light with these 3 free layouts. The plan is to launch a new layout per week based on feedback - so please let keep sending! Cheers, Rob (@robhope)', 'fullsingle'),
     	
-    	'screenshot' => 'https://s3.amazonaws.com/fullsingle/_upcoming.jpg',  
+    	'screenshot' => $plugin_url . 'upcoming.jpg',  
 
 	),
 

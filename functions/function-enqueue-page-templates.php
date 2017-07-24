@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.11
+ * @version 0.1.2
  * @license GPL 2.0
  *
 */
@@ -12,14 +12,11 @@
 # ------------------------------------------------------------------------
 
 /*
-Plugin Name: Page Template Plugin : 'Good To Be Bad'
-Plugin URI: http://www.wpexplorer.com/wordpress-page-templates-plugin/
-Version: 1.1.0
-Author: WPExplorer
-Author URI: http://www.wpexplorer.com/
+ * Adapted from WPExplorer's PageTemplater plugin:
+ * http://www.wpexplorer.com/wordpress-page-templates-plugin/ (v1.1.0)
 */
 
-class PageTemplater {
+class FullSinglePageTemplater {
 
 	/**
 	 * A reference to an instance of this class.
@@ -37,7 +34,7 @@ class PageTemplater {
 	public static function get_instance() {
 
 		if ( null == self::$instance ) {
-			self::$instance = new PageTemplater();
+			self::$instance = new FullSinglePageTemplater();
 		} 
 
 		return self::$instance;
@@ -172,4 +169,4 @@ class PageTemplater {
 	}
 
 } 
-add_action( 'plugins_loaded', array( 'PageTemplater', 'get_instance' ) );
+add_action( 'plugins_loaded', array( 'FullSinglePageTemplater', 'get_instance' ) );

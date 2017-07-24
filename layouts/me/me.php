@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.0.11
+ * @since fullsingle 0.1.2
  * @license GPL 2.0
  * 
  */
@@ -10,6 +10,8 @@
 # ------------------------------------------------------------------------
 # Me
 # ------------------------------------------------------------------------
+
+$plugin_url = plugin_dir_url( __FILE__ );
 
 $layouts[ 'me' ] = array_merge(
 
@@ -19,7 +21,7 @@ $layouts[ 'me' ] = array_merge(
 
     	'description' => __('Me is a slick, personal layout for any individual wanting a minimal online presence. Features include a big background image, logo,  bio and icons.', 'fullsingle'),
     	
-    	'screenshot' => 'me.jpg',  
+    	'screenshot' => $plugin_url . 'me.jpg',  
 
 	),
 
