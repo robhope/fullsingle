@@ -1,8 +1,8 @@
-=== FullSingle ===
+=== FullSingle by One Page Love ===
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -16,8 +16,7 @@ A collection of beautiful free Landing Page layouts for SiteOrigin's Page Builde
 
 == Installation ==
 
-1. Upload \”FullSingle\" to the \"/wp-content/plugins/\" directory.
-2. Activate the plugin through the \"Plugins\" menu in WordPress.
+1. [FullSingle Setup Video Tutorial](https://onepagelove.com/go/fullsingle-setup)
 
 == Screenshots ==
 
@@ -31,9 +30,12 @@ A collection of beautiful free Landing Page layouts for SiteOrigin's Page Builde
 
 = Can I use FullSingle with other Page builders? =
 
-No, only with SiteOrigin's Page Builder.
+No, only with SiteOrigin's Page Builder... for now.
 
 == Changelog ==
+
+= 0.1.4 - 25 July 2017 =
+* Improvement: Added more meat to the CSS reset for layouts
 
 = 0.1.3 - 25 July 2017 =
 * Improvement: Added Donate link, as required by WordPress.org
@@ -86,5 +88,5 @@ No, only with SiteOrigin's Page Builder.
 
 == Upgrade Notice ==
 
-= 0.1.3 - 25 July 2017 =
-* Improvement: Added Donate link, as required by WordPress.org
+= 0.1.4 - 25 July 2017 =
+* Improvement: Added more meat to the CSS reset for layouts

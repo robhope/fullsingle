@@ -6,7 +6,6 @@
 //   v2.0 | 20110126
 //   License: none (public domain)
 
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -87,8 +86,57 @@ img {
 
 body {
 	background-color: #FFFFFF;
+	border-style: none;
+}
+body, 
+p, 
+a, 
+a:hover {
 	color: #000000;
 }
-p 	{
-	color: #000000;
+
+//-------------------------------------------------------------------------------
+// Reset funny Befores and Afters
+//-------------------------------------------------------------------------------
+
+:before,
+:after {
+	height: 0;
+}
+body:not(.custom-background-image):before,
+body:not(.custom-background-image):after {
+	height: 0;
+}
+
+//-------------------------------------------------------------------------------
+// Reset Link Styles
+//-------------------------------------------------------------------------------
+
+a, 
+a:hover {
+	text-decoration: none;
+	border: none;
+	border-style: none;
+	box-shadow: none;
+}
+
+//-------------------------------------------------------------------------------
+// Reset Widget Styles
+//-------------------------------------------------------------------------------
+
+.widget ul li {
+	text-decoration: none;
+	border: none;
+	border-style: none;
+	box-shadow: none;
+}
+
+.widget ul li a, 
+.widget ul li a:hover,
+.textwidget a,
+.textwidget a:hover {
+	text-decoration: none;
+	border: none;
+	border-style: none;
+	box-shadow: none;
 }

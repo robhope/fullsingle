@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.1.2
+ * @since fullsingle 0.1.4
  * @license GPL 2.0
  * 
  */
@@ -19,7 +19,7 @@ $layouts[ 'upcoming' ] = array_merge(
 
 		'name' => __('More layouts soon...', 'fullsingle'), 
 
-    	'description' => __('FullSingle launched light with these 3 free layouts. The plan is to launch a new layout per week based on feedback - so please let keep sending! Cheers, Rob (@robhope)', 'fullsingle'),
+    	'description' => __('FullSingle launched light with these 3 free layouts. The plan is to launch a new layout per week based on feedback - so please keep sending! Cheers, Rob (@robhope)', 'fullsingle'),
     	
     	'screenshot' => $plugin_url . 'upcoming.jpg',  
 
