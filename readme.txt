@@ -2,9 +2,10 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Donate link: https://onepagelove.com/go/fullsingle-upgrade
 Contributors: robdelete
 
 Beautiful Free Landing Page layouts for SiteOrigin's Page Builder.
@@ -34,12 +35,15 @@ No, only with SiteOrigin's Page Builder.
 
 == Changelog ==
 
+= 0.1.3 - 25 July 2017 =
+* Improvement: Added Donate link, as required by WordPress.org
+
 = 0.1.2 - 24 July 2017 =
-* Layout preview thumbs now locally stored
-* PageTemplater now unique FullSingle class
+* Improvement: Layout preview thumbs now locally stored
+* Improvement: PageTemplater now unique FullSingle class
 
 = 0.1.1 - 24 July 2017 =
-* Removal of FullSingle credits
+* Improvement: Removal of FullSingle credits
 
 = 0.1.0 - 22 July 2017 =
 * Official BETA Release
@@ -82,6 +86,5 @@ No, only with SiteOrigin's Page Builder.
 
 == Upgrade Notice ==
 
-= 0.1.2 - 24 July 2017 =
-* Layout preview thumbs now locally stored
-* PageTemplater now unique FullSingle class
+= 0.1.3 - 25 July 2017 =
+* Improvement: Added Donate link, as required by WordPress.org
