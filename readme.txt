@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.4
+Stable tag: 0.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -12,27 +12,53 @@ Beautiful Free Landing Page layouts for SiteOrigin's Page Builder.
 
 == Description ==
 
-A collection of beautiful free Landing Page layouts for SiteOrigin's Page Builder. All layouts are designed and built by One Page Love.
+FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin's Page Builder](https://wordpress.org/plugins/siteorigin-panels/). Simply activate the plugin and you can use FullSingle Layouts on top of _any_ existing WordPress theme:
+
+[youtube https://www.youtube.com/watch?v=pbXgj2OJdAE]
+
+= FullSingle Highlights: =
+
+* Works with any existing WordPress theme
+* No coding required
+* Multiple Landing Page layouts
+
+= FullSingle Layout Demos: =
+
+* [Me](https://demo.onepagelove.com/fullsingle/me-layout/) - minimal, personal presence
+* [Split](https://demo.onepagelove.com/fullsingle/split-layout/) - centrally-divided layout
+* [Vitae](https://demo.onepagelove.com/fullsingle/vitae-layout/) - CV-style One Pager
+* Many more upcoming - [get notified](https://onepagelove.com/go/fullsingle-newsletter)
+
+= Built by Industry Leaders: =
+
+All layouts are designed and built by [One Page Love](https://onepagelove.com) - the leading resource in One Page website design since 2008. 
 
 == Installation ==
 
-1. [FullSingle Setup Video Tutorial](https://onepagelove.com/go/fullsingle-setup)
+* Watch the [FullSingle Setup in 60s](https://onepagelove.com/go/fullsingle-setup)
+
+[youtube https://www.youtube.com/watch?v=pbXgj2OJdAE]
 
 == Screenshots ==
 
-1. The FullSingle interface.
-
-== Documentation ==
-
-[FullSingle Setup Video Tutorial](https://onepagelove.com/go/fullsingle-setup)
+1. assets/screenshot-1.jpg
+2. assets/screenshot-2.jpg
+3. assets/screenshot-3.jpg
 
 == Frequently Asked Questions ==
 
+= What WordPress theme must I use? =
+
+FullSingle works with _any_ existing WordPress theme. Simply install the plugin and you can add Layouts to a blank WordPress Page.
+
 = Can I use FullSingle with other Page builders? =
 
-No, only with SiteOrigin's Page Builder... for now.
+No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
 
 == Changelog ==
+
+= 0.1.5 - 26 July 2017 =
+* Improvement: Added more CSS reset for popular theme compatibility
 
 = 0.1.4 - 25 July 2017 =
 * Improvement: Added more meat to the CSS reset for layouts
@@ -88,5 +114,5 @@ No, only with SiteOrigin's Page Builder... for now.
 
 == Upgrade Notice ==
 
-= 0.1.4 - 25 July 2017 =
-* Improvement: Added more meat to the CSS reset for layouts
+= 0.1.5 - 26 July 2017 =
+* Improvement: Added more CSS reset for popular theme compatibility

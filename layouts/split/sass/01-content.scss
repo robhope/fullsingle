@@ -12,8 +12,8 @@
 $color-background 			: #061c30;
 $color-text					: #848d96;
 $color-link					: #848d96;
-$color-link-hover			: #ca486d; // #f4de8a;
-$color-maverick		        : #47bec7; // #058caf;
+$color-link-hover			: #ca486d; // #F4FE8A;
+$color-maverick		        : #47bec7; // #058CAF;
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -53,6 +53,7 @@ body.page-template-page-fullsingle-split {
 	}
 
 	ul {
+
 		li {
 			list-style: none;
 			padding-left: 0;
@@ -61,7 +62,8 @@ body.page-template-page-fullsingle-split {
 	}
 
 	.panel-row-style {
-		// padding: 160px;
+		padding: 0;
+		margin: 0;
 	}
 
 	//-------------------------------------------------------------------------------
@@ -133,6 +135,11 @@ body.page-template-page-fullsingle-split {
 			.split-lists {
 				padding: 60px 80px 40px 80px;
 
+				.widget {
+					// width: auto;
+					// margin: 0;
+				}
+
 				h3 {
 					font-weight: 400;
 					text-transform: uppercase;
@@ -145,13 +152,13 @@ body.page-template-page-fullsingle-split {
 				}
 
 				ul {
+					margin-right: 10px;
 
 					li {
 						font-size: 16px;
 						line-height: 16px;	
-						margin-bottom: 8px;
+						margin-bottom: 16px;
 						
-
 						a {
 							color: $color-link;
 							transition-duration: 0.5s;
