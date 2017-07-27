@@ -5,6 +5,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
 
 //-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Breakpoints
+$bp-smallish 	: 1200px;
+$bp-tablet 		: 800px;
+$bp-mobile 		: 500px;
+
+//-------------------------------------------------------------------------------
 // Fade In
 //-------------------------------------------------------------------------------
 
@@ -59,10 +68,26 @@ body.page-template-page-fullsingle-vitae {
 
 	.panel-row-style {
 		padding: 160px;
+
+		@media (max-width: $bp-smallish ) {
+			padding: 80px;
+		}
+
+		@media (max-width: $bp-tablet ) {
+			padding: 60px;
+		}
+
+		@media (max-width: $bp-mobile ) {
+			padding: 40px;
+		}
 	}
 
 	.col-wider {
 		max-width: 66%;
+
+		@media (max-width: $bp-tablet ) {
+			max-width: 100%;
+		}
 	}
 
 	//-------------------------------------------------------------------------------

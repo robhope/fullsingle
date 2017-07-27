@@ -9,11 +9,17 @@
 // Variables
 //-------------------------------------------------------------------------------
 
+// Colors
 $color-background 			: #061c30;
 $color-text					: #848d96;
 $color-link					: #848d96;
-$color-link-hover			: #ca486d; // #F4FE8A;
-$color-maverick		        : #47bec7; // #058CAF;
+$color-link-hover			: #CA486d; 
+$color-maverick		        : #47bec7; 
+
+// Breakpoints
+$bp-smallish 	: 1200px;
+$bp-tablet 		: 800px;
+$bp-mobile 		: 500px;
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -74,11 +80,13 @@ body.page-template-page-fullsingle-split {
 
 		.split-image {
 			height: 100vh;
-
-			// .panel-widget-style { // Need to include within layout cells on future Page Builder update
-			background-image:url(https://s3.amazonaws.com/fullsingle/split-bg.jpg);
+			background-image:url(https://s3.amazonaws.com/fullsingle/split-bg.jpg); // Need to include within layout cells on future Page Builder update
 			background-position:center center;
-			background-size:cover 
+			background-size:cover;
+
+			@media (max-width: $bp-tablet ) {
+				height: 80vh;
+			}	
 
 		}
 
@@ -91,6 +99,14 @@ body.page-template-page-fullsingle-split {
 				font-size: 64px; 
 				line-height: 80px;
 				letter-spacing: -2px;
+
+				@media (max-width: $bp-smallish ) {
+					padding: 60px 60px 0 60px;
+				}	
+
+				@media (max-width: $bp-tablet ) {
+					padding: 40px 40px 0 40px;
+				}	
 
 				p {
 					color: #CCC;
@@ -112,6 +128,13 @@ body.page-template-page-fullsingle-split {
 				padding: 40px 80px 0 80px;
 				font-family: 'Lora', serif;
 
+				@media (max-width: $bp-smallish ) {
+					padding: 40px 60px 0 60px;
+				}
+
+				@media (max-width: $bp-tablet ) {
+					padding: 40px 40px 0 40px;
+				}	
 
 				p {
 					color: $color-text;
@@ -135,6 +158,14 @@ body.page-template-page-fullsingle-split {
 			.split-lists {
 				padding: 60px 80px 40px 80px;
 
+				@media (max-width: $bp-smallish ) {
+					padding: 40px 60px 40px 60px;
+				}
+
+				@media (max-width: $bp-tablet ) {
+					padding: 40px 40px 20px 40px;
+				}	
+
 				h3 {
 					font-weight: 400;
 					text-transform: uppercase;
@@ -152,7 +183,7 @@ body.page-template-page-fullsingle-split {
 					li {
 						font-size: 16px;
 						line-height: 16px;	
-						margin-bottom: 4px;
+						margin-bottom: 12px;
 						
 						a {
 							color: $color-link;

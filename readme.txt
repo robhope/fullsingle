@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.6
+Stable tag: 0.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -56,6 +56,9 @@ FullSingle works with _any_ existing WordPress theme. Simply install the plugin 
 No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
 
 == Changelog ==
+
+= 0.1.7 - 27 July 2017 =
+* Improvement: Added more breakpoints and improved responsive styles
 
 = 0.1.6 - 27 July 2017 =
 * Improvement: Added more meat to the CSS reset for layouts
@@ -112,6 +115,5 @@ No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million ac
 
 == Upgrade Notice ==
 
-= 0.1.6 - 27 July 2017 =
-* Improvement: Added more meat to the CSS reset for layouts
-* Update: Added links to layout specific setup videos in Documentation section of theme customizer
+= 0.1.7 - 27 July 2017 =
+* Improvement: Added more breakpoints and improved responsive styles

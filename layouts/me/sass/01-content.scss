@@ -5,6 +5,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
 //-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Breakpoints
+$bp-smallish 	: 1200px;
+$bp-tablet 		: 800px;
+$bp-mobile 		: 500px;
+
+//-------------------------------------------------------------------------------
 // Fade In
 //-------------------------------------------------------------------------------
 
@@ -25,7 +34,6 @@ body.page-template-page-fullsingle-me {
 	line-height: 60px;
 	letter-spacing: -0.5px;
 	color: #999;
-	
 
 	//-------------------------------------------------------------------------------
 	// Site Origin Page Builder Global Styles
@@ -46,6 +54,11 @@ body.page-template-page-fullsingle-me {
 		margin-bottom: 28px;
 		color: #999;
 
+		@media (max-width: $bp-tablet ) {
+			font-size: 32px;
+			line-height: 40px;
+		}	
+
 	}
 
 	//-------------------------------------------------------------------------------
@@ -55,11 +68,18 @@ body.page-template-page-fullsingle-me {
 	.fs-me {
 		padding: 10vh 10vw;
 
+		@media (max-width: $bp-mobile ) {
+			padding: 5vh 5vw;
+		}	
+
 	  	.panel-grid-cell {
 	  		height: 80vh;
 			display: flex;
 	  		flex-direction: column;
 
+			@media (max-width: $bp-mobile ) {
+				height: 90vh; // as padding now 5vh 5vw
+			}	
 		  	.so-panel:nth-child(1) { // .logo
 				flex: 1 1 auto;
 		  		display: flex;
