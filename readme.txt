@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.5
+Stable tag: 0.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -57,11 +57,9 @@ No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million ac
 
 == Changelog ==
 
-= 0.1.5 - 26 July 2017 =
-* Improvement: Added more CSS reset for popular theme compatibility
-
-= 0.1.4 - 25 July 2017 =
+= 0.1.6 - 27 July 2017 =
 * Improvement: Added more meat to the CSS reset for layouts
+* Update: Added links to layout specific setup videos in Documentation section of theme customizer
 
 = 0.1.3 - 25 July 2017 =
 * Improvement: Added Donate link, as required by WordPress.org
@@ -114,5 +112,6 @@ No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million ac
 
 == Upgrade Notice ==
 
-= 0.1.5 - 26 July 2017 =
-* Improvement: Added more CSS reset for popular theme compatibility
+= 0.1.6 - 27 July 2017 =
+* Improvement: Added more meat to the CSS reset for layouts
+* Update: Added links to layout specific setup videos in Documentation section of theme customizer

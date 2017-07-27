@@ -126,6 +126,10 @@ a:hover {
 // Reset Widget Styles
 //-------------------------------------------------------------------------------
 
+.widget {
+	padding: 0;
+}
+
 .widget ul li {
 	text-decoration: none;
 	border: none;

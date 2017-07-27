@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.0.11
+ * @version 0.1.6
  * @license GPL 2.0
  *
 */
@@ -32,16 +32,16 @@ function fullsingle_customizer_setup_documentation ( $wp_customize ) {
         'priority'  => 801,
         'description' => '<span style="font-style: normal">
         <ul>
-        <li><b>Setup:</b> <a href="https://onepagelove.com/go/fullsingle-setup">FullSingle 1min Setup Video</a></li>
+        <li><b>Watch:</b> <a href="https://onepagelove.com/go/fullsingle-setup">FullSingle 60s Setup</a></li>
         <li><b>Examples:</b> <a href="https://demo.onepagelove.com/fullsingle" target="_blank">FullSingle Demos</a></li>
         <li><b>Newsletter:</b> <a href="https://onepagelove.com/go/fullsingle-newsletter">New Layouts -> Inbox</a></li>
         <li><b>Help?</b> <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_customizer_setup_support_option">Visit Support Panel</a></li>
         </ul>
         <h3>Setup Videos - Layout Specific 🎞</h3>
         <ul>
-            <li><b>Me:</b>      <a href="#">Watch</a></li>
-            <li><b>Split:</b>   <a href="#">Watch</a></li>
-            <li><b>Vitae:</b>   <a href="#">Watch</a></li>
+            <li><b>Me:</b>      <a href="https://onepagelove.com/go/fullsingle-setup-me">Watch</a></li>
+            <li><b>Split:</b>   <a href="https://onepagelove.com/go/fullsingle-setup-split">Watch</a></li>
+            <li><b>Vitae:</b>   <a href="https://onepagelove.com/go/fullsingle-setup-vitae">Watch</a></li>
         </ul>       
         </span>',        
     ));        
