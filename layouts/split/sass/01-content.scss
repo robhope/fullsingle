@@ -10,16 +10,16 @@
 //-------------------------------------------------------------------------------
 
 // Colors
-$color-background 			: #061c30;
-$color-text					: #848d96;
-$color-link					: #848d96;
-$color-link-hover			: #CA486d; 
-$color-maverick		        : #47bec7; 
+$color-background 	: #061C30;
+$color-text			: #848d96;
+$color-link			: #848d96;
+$color-link-hover	: #CA486d; 
+$color-maverick		: #47bec7; 
 
 // Breakpoints
-$bp-smallish 	: 1200px;
-$bp-tablet 		: 800px;
-$bp-mobile 		: 500px;
+$bp-smallish 		: 1200px;
+$bp-tablet 			: 800px;
+$bp-mobile 			: 500px;
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -34,6 +34,9 @@ $bp-mobile 		: 500px;
 // Content
 //-------------------------------------------------------------------------------
 
+html {
+	background-color: $color-background; 
+}
 body.page-template-page-fullsingle-split {
 	background-color: $color-background; 
 	font-family: 'Montserrat', sans-serif;

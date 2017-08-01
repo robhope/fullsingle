@@ -8,10 +8,13 @@
 // Variables
 //-------------------------------------------------------------------------------
 
+// Colors
+$color-background	: #FFFFFF;
+
 // Breakpoints
-$bp-smallish 	: 1200px;
-$bp-tablet 		: 800px;
-$bp-mobile 		: 500px;
+$bp-smallish 		: 1200px;
+$bp-tablet 			: 800px;
+$bp-mobile 			: 500px;
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -26,8 +29,11 @@ $bp-mobile 		: 500px;
 // Content
 //-------------------------------------------------------------------------------
 
+html {
+	background-color: $color-background; 
+}
 body.page-template-page-fullsingle-vitae {
-	background-color: #FFF; 
+	background-color: $color-background; 
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 21px;

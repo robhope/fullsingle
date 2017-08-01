@@ -2,24 +2,25 @@
 Tags: builder, pages, layout, grid
 Requires at least: 4.8
 Tested up to: 4.8
-Stable tag: 0.1.7
+Stable tag: 0.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
 Contributors: robdelete
 
-Beautiful Free Landing Page layouts for SiteOrigin's Page Builder.
+Beautiful Free Landing Page layouts that work with any WordPress theme.
 
 == Description ==
 
-FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin's Page Builder](https://wordpress.org/plugins/siteorigin-panels/). Simply activate the plugin and you can use FullSingle Layouts on top of _any_ existing WordPress theme:
+FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin's Page Builder](https://wordpress.org/plugins/siteorigin-panels/). Simply activate the plugin and you can use FullSingle Layouts with _any_ existing WordPress theme:
 
 [youtube https://www.youtube.com/watch?v=pbXgj2OJdAE]
 
 = FullSingle Highlights: =
 
-* Works with any existing WordPress theme
+* Works with any WordPress theme
 * No coding required
+* Powerful Page Builder functionality
 * Multiple Landing Page layouts
 
 = FullSingle Layout Demos: =
@@ -47,15 +48,27 @@ All layouts are designed and built by [One Page Love](https://onepagelove.com) -
 
 == Frequently Asked Questions ==
 
+= What (exactly) do I need to use FullSingle? =
+
+1. A self-hosted WordPress installation (see our [$2.95/mo hosting special](https://onepagelove.com/go/bluehost))
+2. Any WordPress theme installed and activated
+3. SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/siteorigin-panels/) installed and activated
+4. The FullSingle plugin installed and activated
+
 = What WordPress theme must I use? =
 
 FullSingle works with _any_ existing WordPress theme. Simply install the plugin and you can add Layouts to a blank WordPress Page.
 
 = Can I use FullSingle with other Page builders? =
 
-No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
+No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/siteorigin-panels/). This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
 
 == Changelog ==
+
+= 0.1.8 - 01 August 2017 =
+* Improvement: Introduced background-color to HTML element
+* Improvement: Added FullSingle ID to body tag on Page Templates
+* Bug fix: Fixed body color background issue on Me layout
 
 = 0.1.7 - 27 July 2017 =
 * Improvement: Added more breakpoints and improved responsive styles
@@ -115,5 +128,7 @@ No, only with SiteOrigin's Page Builder. This Page Builder has over 1 million ac
 
 == Upgrade Notice ==
 
-= 0.1.7 - 27 July 2017 =
-* Improvement: Added more breakpoints and improved responsive styles
+= 0.1.8 - 01 August 2017 =
+* Improvement: Introduced background-color to HTML element
+* Improvement: Added FullSingle ID to body tag on Page Templates
+* Bug fix: Fixed body color background issue on Me layout

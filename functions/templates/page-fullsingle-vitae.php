@@ -3,7 +3,7 @@
  * Template Name: FullSingle - Vitae
  * 
  * @package fullsingle
- * @since fullsingle 0.1.1
+ * @since fullsingle 0.1.8
  * @license GPL 2.0
  * 
  */
@@ -23,17 +23,13 @@
 
 </head>
 
-<body <?php body_class(); ?> > 
+<body id="fullsingle" <?php body_class(); ?> > 
 
-	<div id="fullsingle">
+	<?php while ( have_posts() ) : the_post(); ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php the_content() ?>
 
-			<?php the_content() ?>
-
-		<?php endwhile; ?>
-
-	</div><!-- / #fullsingle -->
+	<?php endwhile; ?>
 
 <?php wp_footer(); ?>
 
