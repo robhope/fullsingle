@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid, onepage, one page, page builder
 Requires at least: 4.8.1
 Tested up to: 4.8.1
-Stable tag: 0.4
+Stable tag: 0.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -46,6 +46,7 @@ All layouts are designed and built by [One Page Love](https://onepagelove.com) -
 1. assets/screenshot-1.jpg
 2. assets/screenshot-2.jpg
 3. assets/screenshot-3.jpg
+3. assets/screenshot-4.jpg
 
 == Frequently Asked Questions ==
 
@@ -66,8 +67,11 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Changelog ==
 
+= 0.4.1 - 11 August 2017 =
+* Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
+
 = 0.4 - 11 August 2017 =
-* Improvement: Changed plugin version number to match layouts eg. 0.4 means 4 avaiable layouts
+* Improvement: Changed plugin version number to match layouts eg. 0.4 means 4 available layouts
 * New Layout: Flyleaf - an eBook landing page ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
 
 = 0.1.8 - 01 August 2017 =
@@ -105,7 +109,7 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 * Feature: JSON files working within framework
 
 = 0.0.9 - 17 July 2017 =
-* Layout: Split added
+* New Layout: Split - centrally-divided layout ([see demo](https://demo.onepagelove.com/fullsingle/split-layout/))
 
 = 0.0.8 - 14 July 2017 =
 * Feature: Customizer panel added
@@ -114,13 +118,13 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 * Feature: Integration of accreditation
 
 = 0.0.6 - 13 July 2017 =
-* Layout: Me added
+* New Layout: Me - minimal, personal presence ([see demo](https://demo.onepagelove.com/fullsingle/me-layout/))
 
 = 0.0.5 - 13 July 2017 =
 * Improvement: Removed images within plugin
 
 = 0.0.4 - 13 July 2017 =
-* Layout: Vitae added
+* New Layout: Vitae - CV-style One Pager ([see demo](https://demo.onepagelove.com/fullsingle/vitae-layout/))
 
 = 0.0.3 - 6 July 2017 =
 * Bug fix: Fixed body color bug
@@ -133,6 +137,5 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Upgrade Notice ==
 
-= 0.4 - 11 August 2017 =
-* Improvement: Changed plugin version number to match layouts eg. 0.4 means 4 avaiable layouts
-* New Layout: Flyleaf - an eBook landing page ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
+= 0.4.1 - 11 August 2017 =
+* Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
