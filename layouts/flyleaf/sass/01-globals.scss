@@ -92,7 +92,8 @@ $bp-mobile 			: 500px;
 
 	@media (max-width: $bp-tablet ) {
 		margin-left: 0;
-		max-width: 100%;
+		margin-right: 0;
+		max-width: 90%;
 	}	
 }
 

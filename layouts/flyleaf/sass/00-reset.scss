@@ -133,6 +133,10 @@ a:hover {
 	margin: 0;
 }
 
+.widget a,
+.widget a:hover {
+	box-shadow: none;
+}
 .widget ul li {
 	text-decoration: none;
 	border: none;
