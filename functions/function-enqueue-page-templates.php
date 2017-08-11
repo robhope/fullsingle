@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.1.2
+ * @version 0.4.0
  * @license GPL 2.0
  *
 */
@@ -82,12 +82,12 @@ class FullSinglePageTemplater {
 		);
 
 
-		// Add your templates to this array.
+		// Add your templates to this array - added alphabetically
 		$this->templates = array(	
-			'templates/page-fullsingle-me.php' 		=> 'FullSingle - Me',	
-			'templates/page-fullsingle-split.php' 	=> 'FullSingle - Split',	
-			'templates/page-fullsingle-vitae.php' 	=> 'FullSingle - Vitae',	
-													
+			'templates/page-fullsingle-flyleaf.php' 	=> 'FullSingle - Flyleaf',				
+			'templates/page-fullsingle-me.php' 			=> 'FullSingle - Me',	
+			'templates/page-fullsingle-split.php' 		=> 'FullSingle - Split',	
+			'templates/page-fullsingle-vitae.php' 		=> 'FullSingle - Vitae',								
 		);
 			
 	} 

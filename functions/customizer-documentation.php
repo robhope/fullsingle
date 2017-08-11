@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.1.6
+ * @version 0.4.0
  * @license GPL 2.0
  *
 */
@@ -37,8 +37,9 @@ function fullsingle_customizer_setup_documentation ( $wp_customize ) {
         <li><b>Newsletter:</b> <a href="https://onepagelove.com/go/fullsingle-newsletter">New Layouts -> Inbox</a></li>
         <li><b>Help?</b> <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_customizer_setup_support_option">Visit Support Panel</a></li>
         </ul>
-        <h3>Setup Videos - Layout Specific 🎞</h3>
+        <h3>Layout Setup Videos:</h3>
         <ul>
+            <li><b>Flyleaf:</b> <a href="https://onepagelove.com/go/fullsingle-setup-flyleaf">Watch</a></li>
             <li><b>Me:</b>      <a href="https://onepagelove.com/go/fullsingle-setup-me">Watch</a></li>
             <li><b>Split:</b>   <a href="https://onepagelove.com/go/fullsingle-setup-split">Watch</a></li>
             <li><b>Vitae:</b>   <a href="https://onepagelove.com/go/fullsingle-setup-vitae">Watch</a></li>

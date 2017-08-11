@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.1.1
+ * @version 0.4.0
  * @license GPL 2.0
  *
 */
@@ -32,12 +32,13 @@ function fullsingle_customizer_setup_support ( $wp_customize ) {
         'priority'  => 901,
         'description' => '<span style="font-style: normal">
         <h2>FullSingle Pro</h2>
-        <p>Upgrade to <a href="https://onepagelove.com/go/fullsingle-upgrade" target="_blank">FullSingle Pro</a> to get email support and unlock Pro templates (upcoming).</p>
+        <p>Upgrade to <a href="https://onepagelove.com/go/fullsingle-upgrade" target="_blank">FullSingle Pro</a> to get email support and unlock Pro templates and widgets (upcoming).</p>
         <b>
         <ul>
         <li>- 12 months email support 💌</li>    
         <li>- Contribute to development 👍🏻</li>
         <li>- Pro-only templates (upcoming)</li>
+        <li>- Pro-only widgets (upcoming)</li>
         </ul>
         <br /> 
         </b> 

@@ -2,8 +2,8 @@
 /*
 Plugin Name: FullSingle
 Plugin URI: https://onepagelove.com/fullsingle
-Description: Beautiful Free Landing Page layouts for SiteOrigin's Page Builder.
-Version: 0.1.8
+Description: Beautiful Free Landing Page layouts that work with any WordPress theme.
+Version: 0.4
 Author: One Page Love
 Author URI: https://onepagelove.com
 License: GPLv2 or later

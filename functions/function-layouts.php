@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.0.11
+ * @version 0.4.0
  * @license GPL 2.0
  *
 */
@@ -15,6 +15,7 @@ function fullsingle_prebuilt_layouts($layouts) {
 
 	$layout_dir = plugin_dir_path( __FILE__ ) . '../layouts/';
 
+	require_once( $layout_dir . 'flyleaf/flyleaf.php');
 	require_once( $layout_dir . 'me/me.php');
 	require_once( $layout_dir . 'split/split.php');
 	require_once( $layout_dir . 'vitae/vitae.php');
