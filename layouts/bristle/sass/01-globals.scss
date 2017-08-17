@@ -9,7 +9,6 @@
 //-------------------------------------------------------------------------------
 
 // Fonts 
-
 $font-sans	: 'Roboto', Helvetica, Arial, sans-serif;
 
 // Colors
@@ -31,4 +30,30 @@ $bp-mobile 			: 500px;
 @keyframes fadein {
     from { opacity: 0;}
     to   { opacity: 1;}
+}
+
+//-------------------------------------------------------------------------------
+// Extends
+//-------------------------------------------------------------------------------
+
+%global-border-width {
+	border-width: 40px; 
+
+	@media (max-width: $bp-mobile  ) {
+		border-width: 20px;
+	}	
+}
+
+%global-padding {
+	padding: 80px;
+
+	@media (max-width: $bp-smallish  ) {
+		padding: 60px;
+	}	
+	@media (max-width: $bp-tablet  ) {
+		padding: 40px;
+	}
+	@media (max-width: $bp-mobile  ) {
+		padding: 20px;
+	}	
 }

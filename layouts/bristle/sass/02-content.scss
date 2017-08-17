@@ -6,16 +6,18 @@ html {
 	background-color: $color-background; 
 }
 body.page-template-page-fullsingle-bristle {
+	border-color: $color-page-border;
+	border-style: solid;
+	@extend %global-border-width;
 	background-color: $color-background; 
-	border: 80px solid $color-page-border;
 	font-family: $font-sans;
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 33px;
 	letter-spacing: -0.2px;
 	color: $color-text;
-	animation: fadein 2s;
-	padding: 80px; 
+	animation: fadein 2s; 
+	@extend %global-padding;
 
 	//-------------------------------------------------------------------------------
 	// Site Origin Page Builder Global Styles
@@ -66,7 +68,19 @@ body.page-template-page-fullsingle-bristle {
 		.header-logo {
 			height: 100px;
 			width: 100px;
-			margin: 0 auto 80px auto;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 80px;
+
+			@media (max-width: $bp-smallish  ) {
+				margin-bottom: 60px;
+			}	
+			@media (max-width: $bp-tablet  ) {
+				margin-bottom: 40px;
+			}
+			@media (max-width: $bp-mobile  ) {
+				margin-bottom: 20px;
+			}	
 
 			img {
 				width: 100%;
@@ -78,9 +92,21 @@ body.page-template-page-fullsingle-bristle {
 
 		.header-links {
 			font-size: 18px;
-			line-height: 18px;
+			line-height: 30px;
 			color: #999;
-			margin-bottom: 80px;
+			margin-bottom: 70px;
+
+			@media (max-width: $bp-smallish  ) {
+				margin-bottom: 50px;
+			}	
+			@media (max-width: $bp-tablet  ) {
+				margin-bottom: 30px;
+			}
+			@media (max-width: $bp-mobile  ) {
+				margin-bottom: 20px;
+				font-size: 16px;
+				line-height: 26px;
+			}	
 
 			ul {
 
@@ -90,10 +116,22 @@ body.page-template-page-fullsingle-bristle {
 					margin: 0 12px 0 12px;
 					display: inline-block;
 
+					@media (max-width: $bp-smallish  ) {
+						margin: 0 8px 0 8px;
+					}	
+					@media (max-width: $bp-tablet  ) {
+						margin: 0 4px 0 4px;
+					}
+					@media (max-width: $bp-mobile  ) {
+						
+					}	
+
+
 					a {
 						display: block;
 						margin: 0 12px;
 						color: #999;
+
 						&:hover {
 							color: #333;
 						}
@@ -103,17 +141,37 @@ body.page-template-page-fullsingle-bristle {
 		}
 
 		.header-intro {
-			margin-bottom: 150px; // 160px - 10px for line height difference
 			max-width: 1000px;
 			margin-left: auto;
 			margin-right: auto;
+			margin-bottom: 120px;
 
+			@media (max-width: $bp-smallish  ) {
+				margin-bottom: 80px;
+			}	
+			@media (max-width: $bp-tablet  ) {
+				margin-bottom: 60px;
+			}
+			@media (max-width: $bp-mobile  ) {
+				margin-bottom: 40px;
+			}	
 			p {
 				font-size: 60px;
 				line-height: 70px;
 				letter-spacing: -2px;
 				font-weight: bold;
 				color: #444;
+
+				@media (max-width: $bp-tablet  ) {
+					font-size: 42px;
+					line-height: 52px;
+					letter-spacing: -1px;
+				}
+				@media (max-width: $bp-mobile  ) {
+					font-size: 36px;
+					line-height: 44px;
+					letter-spacing: -1px;
+				}	
 			}
 		}
 	}
@@ -126,8 +184,22 @@ body.page-template-page-fullsingle-bristle {
 	.row-projects {
 		margin-bottom: 120px;
 
+		@media (max-width: $bp-smallish  ) {
+			margin-bottom: 80px;
+		}	
+		@media (max-width: $bp-tablet  ) {
+			margin-bottom: 60px;
+		}
+		@media (max-width: $bp-mobile  ) {
+			margin-bottom: 40px;
+		}	
+
 		.project {
 			margin-bottom: 40px;
+				
+			@media (max-width: $bp-tablet  ) {
+				margin-bottom: 20px;
+			}
 
 			.project-image {
 				margin-bottom: 16px;
@@ -186,12 +258,22 @@ body.page-template-page-fullsingle-bristle {
 	.row-contact {
 		margin-bottom: 80px;
 
+		@media (max-width: $bp-smallish  ) {
+			margin-bottom: 60px;
+		}	
+		@media (max-width: $bp-tablet  ) {
+			margin-bottom: 40px;
+		}
+		@media (max-width: $bp-mobile  ) {
+			margin-bottom: 20px;
+		}	
+
 		.contact-details {
 			text-align: center;
 
 			p {
 				font-size: 18px;
-				line-height: 18px;
+				line-height: 26px;
 				color: #AAA;
 
 				a {

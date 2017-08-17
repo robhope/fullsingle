@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid, onepage, one page, page builder
 Requires at least: 4.8.1
 Tested up to: 4.8.1
-Stable tag: 0.4.1
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -25,10 +25,11 @@ FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin'
 
 = FullSingle Layout Demos: =
 
+* [Bristle](https://demo.onepagelove.com/fullsingle/bristle-layout/) - portfolio grid layout
 * [Flyleaf](https://demo.onepagelove.com/fullsingle/flyleaf-layout/) - eBook landing page
 * [Me](https://demo.onepagelove.com/fullsingle/me-layout/) - minimal, personal presence
 * [Split](https://demo.onepagelove.com/fullsingle/split-layout/) - centrally-divided layout
-* [Vitae](https://demo.onepagelove.com/fullsingle/vitae-layout/) - CV-style One Pager
+* [Vitae](https://demo.onepagelove.com/fullsingle/vitae-layout/) - cv-style layout
 * Many more upcoming - [get notified](https://onepagelove.com/go/fullsingle-newsletter)
 
 = Built by Industry Leaders: =
@@ -66,6 +67,9 @@ FullSingle works with _any_ existing WordPress theme. Simply install the plugin 
 No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/siteorigin-panels/). This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
 
 == Changelog ==
+
+= 0.5 - 17 August 2017 =
+* New Layout: Bristle is a minimal Portfolio layout with a grid of projects that link out. Features include header logo or image, custom navigation and a project grid. ([see demo](https://demo.onepagelove.com/fullsingle/bristle-layout/))
 
 = 0.4.1 - 11 August 2017 =
 * Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
@@ -137,5 +141,5 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Upgrade Notice ==
 
-= 0.4.1 - 11 August 2017 =
-* Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
+= 0.5 - 17 August 2017 =
+* New Layout: Bristle is a minimal Portfolio layout with a grid of projects that link out. Features include header logo or image, custom navigation and a project grid. ([see demo](https://demo.onepagelove.com/fullsingle/bristle-layout/))

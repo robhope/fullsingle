@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.4.1.1
+ * @since fullsingle 0.5.0
  * @license GPL 2.0
  * 
  */
