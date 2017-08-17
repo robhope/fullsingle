@@ -2,7 +2,7 @@
 // Font Import
 //-------------------------------------------------------------------------------
 
-@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 //-------------------------------------------------------------------------------
 // Variables
@@ -10,112 +10,19 @@
 
 // Fonts 
 
-$font-sans	: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-$font-serif : "Old Standard TT", Georgia, sans-serif; 
+$font-sans	: 'Roboto', Helvetica, Arial, sans-serif;
 
 // Colors
-$color-background 			: #FE818F;
-$color-background-darker 	: #FE5E70;
-$color-background-author 	: #F2F2F2;
-$color-background-light 	: #FFFFFF;
-$color-text					: #FFFFFF;
-$color-link					: #FFFFFF;
-$color-link-hover			: #FFFFFF; 
-$color-maverick				: #F8354F; // buttons
+$color-background 			: #FFFFFF;
+$color-page-border		 	: #FED0C5;
+$color-text					: #666666;
+$color-link					: #666666;
+$color-link-hover			: #333333; 
 
 // Breakpoints
 $bp-smallish 		: 1200px;
 $bp-tablet 			: 800px;
 $bp-mobile 			: 500px;
-
-//-------------------------------------------------------------------------------
-// Extends
-//-------------------------------------------------------------------------------
-
-%style-heading {
-	font-size: 55px;
-	line-height: 60px;
-	letter-spacing: -2px;
-	margin-bottom: 40px;
-
-	@media (max-width: $bp-smallish ) {
-		font-size: 44px;
-		line-height: 50px;
-		letter-spacing: -2px;
-		margin-bottom: 24px;
-	}		
-}
-
-%style-meta {
-	font-family: $font-sans;
-	text-transform: uppercase;
-	font-size: 12px;
-	line-height: 12px;
-	opacity: 0.6;
-	letter-spacing: 0.5px;
-}
-
-%style-paragraph {
-	font-size: 21px;
-	line-height: 30px;
-	margin-bottom: 24px;
-}
-
-%style-button-buy {
-	border-width: 2px;
-	border-style: solid;
-	font-weight: 700;
-}
-
-%style-link-sample {
-	font-family: $font-sans;
-	font-size: 14px;
-	line-height: 14px;
-
-	a {
-		opacity: 0.6;
-		color: #FFF;
-		border-bottom: 1px dashed #FFF;
-
-		&:hover {
-			opacity: 1;
-		}
-	}
-}
-
-%margins-left {
-	margin-left: auto;
-	max-width: 500px;
-	width: 90%;
-	padding-right: 5%;
-	padding-left: 5%;
-
-	@media (max-width: $bp-tablet ) {
-		margin-left: 0;
-		margin-right: 0;
-		max-width: 90%;
-	}	
-}
-
-%margins-right {
-	margin-right: auto;
-	max-width: 500px;
-	width: 90%;
-	padding-right: 5%;
-	padding-left: 5%;
-
-	@media (max-width: $bp-tablet ) {
-		margin-right: 0;
-		max-width: 100%;
-	}	
-}
-
-%background-glow {
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
-	background: radial-gradient(ellipse at center,  rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#00ffffff',GradientType=1 );
-}
 
 //-------------------------------------------------------------------------------
 // Fade In

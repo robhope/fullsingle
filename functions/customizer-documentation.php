@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.4.0
+ * @version 0.4.1.2
  * @license GPL 2.0
  *
 */
@@ -39,6 +39,7 @@ function fullsingle_customizer_setup_documentation ( $wp_customize ) {
         </ul>
         <h3>Layout Setup Videos:</h3>
         <ul>
+            <li><b>Bristle:</b> <a href="https://onepagelove.com/go/fullsingle-setup-bristle">Watch</a></li>
             <li><b>Flyleaf:</b> <a href="https://onepagelove.com/go/fullsingle-setup-flyleaf">Watch</a></li>
             <li><b>Me:</b>      <a href="https://onepagelove.com/go/fullsingle-setup-me">Watch</a></li>
             <li><b>Split:</b>   <a href="https://onepagelove.com/go/fullsingle-setup-split">Watch</a></li>
