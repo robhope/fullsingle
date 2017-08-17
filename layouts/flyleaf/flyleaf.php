@@ -2,7 +2,7 @@
 /**
  *
  * @package fullsingle
- * @since fullsingle 0.4.0
+ * @since fullsingle 0.4.1.1
  * @license GPL 2.0
  * 
  */
@@ -19,7 +19,7 @@ $layouts[ 'flyleaf' ] = array_merge(
 
 		'name' => __('Flyleaf', 'fullsingle'), 
 
-		'description' => __('Flyleaf is a long-scrolling Landing Page layout for promoting your eBook. Features include intro cover, testimonials, about the author and whats inside.', 'fullsingle'),
+		'description' => __('Flyleaf is a long-scrolling Landing Page layout for promoting your eBook. Features include cover, testimonials, author info and whats inside.', 'fullsingle'),
 
     	'screenshot' => $plugin_url . 'flyleaf.jpg',  
 

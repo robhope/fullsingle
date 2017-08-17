@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.4.0
+ * @version 0.4.1.1
  * @license GPL 2.0
  *
 */
@@ -84,6 +84,7 @@ class FullSinglePageTemplater {
 
 		// Add your templates to this array - added alphabetically
 		$this->templates = array(	
+			'templates/page-fullsingle-bristle.php' 	=> 'FullSingle - Bristle',	
 			'templates/page-fullsingle-flyleaf.php' 	=> 'FullSingle - Flyleaf',				
 			'templates/page-fullsingle-me.php' 			=> 'FullSingle - Me',	
 			'templates/page-fullsingle-split.php' 		=> 'FullSingle - Split',	

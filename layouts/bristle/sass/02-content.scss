@@ -1,0 +1,380 @@
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+html {
+	background-color: $color-background; 
+}
+body.page-template-page-fullsingle-flyleaf {
+	background-color: $color-background; 
+	font-family: $font-serif;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 33px;
+	letter-spacing: -0.2px;
+	color: $color-text;
+	animation: fadein 2s;
+
+	//-------------------------------------------------------------------------------
+	// Site Origin Page Builder Global Styles
+	//-------------------------------------------------------------------------------
+
+	.panel-grid,
+	.so-panel {
+		margin-bottom: 0 !important; // reset
+	}
+
+	p {
+		color: $color-text;
+	}
+
+	ul {
+
+		li {
+			list-style: none;
+			padding-left: 0;
+			margin-left: 0;
+		}
+	}
+
+	.panel-row-style {
+		padding: 0;
+		margin: 0;
+	}
+
+	h3.widget-title {
+		display: none; // hide all widget titles, they are kept for better UX within Page Builder interface
+	}
+
+	strong {
+		font-weight: 700;
+	}
+	.textwidget {
+		// for testimonial name
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: Special
+	//-------------------------------------------------------------------------------
+
+	.special-offer {
+		background-color: $color-background-darker;
+		font-family: $font-sans;
+		height: auto;
+		text-align: center;
+		font-size: 14px;
+		line-height: 18px;
+		padding: 16px;
+
+		a {
+			color: #FFF;
+			text-decoration: underline;
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: Book Intro
+	//-------------------------------------------------------------------------------
+
+	.book-header {
+		@extend %background-glow;
+		min-height: 700px;
+		padding: 80px 0 40px 0;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;	
+
+		@media (max-width: $bp-tablet ) {
+			padding-top: 40px; 
+			min-height: none;
+		}	
+
+		.book-cover {
+			@extend %margins-left;
+
+			img {
+				width: 100%;
+				height: auto;
+				box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.5);
+				border-radius: 2px;
+				border-bottom-left-radius: 3px; // left borders more rounded as thats the spine :)
+				border-top-left-radius: 3px;
+			}
+		}
+
+		.book-info-column {
+
+			.book-info {
+				@extend %margins-right;
+
+				.text-meta {
+					@extend %style-meta;
+					margin-bottom: 80px;
+
+					@media (max-width: $bp-smallish ) {
+						margin-bottom: 20px; 
+					}	
+				}
+
+				.text-main {
+					@extend %style-heading;
+					margin-bottom: 24px !important;
+				}
+
+				.text-sub {
+					font-size: 18px;
+					line-height: 24px;
+					opacity: 0.9;
+					margin-bottom: 40px;
+				}
+
+				.button-action {
+					font-family: $font-sans;
+					margin-bottom: 20px;
+
+					a.button-buy {
+						@extend %style-button-buy;
+
+						@media (max-width: $bp-mobile ) {
+							width: 100%; 
+						}
+					}
+				}
+
+				.download-sample {
+					@extend %style-link-sample;
+					
+					@media (max-width: $bp-mobile ) {
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: Testimonial
+	//-------------------------------------------------------------------------------
+
+	#testimonial-first { 
+		margin-top: -80px; // to create the book overlay into the testimonial section
+
+		@media (max-width: $bp-tablet ) {
+			margin-top: 0; 
+		}	
+	}
+
+	.testimonial-row {
+		background-color: $color-background-light;
+		text-align: center;
+		padding: 120px 0;
+
+		@media (max-width: $bp-tablet ) {
+			padding: 60px 0; 
+		}	
+
+		@media (max-width: $bp-mobile ) {
+			padding: 40px 0; 
+		}	
+
+		.testimonial-quote {
+			width: 80%;
+			max-width: 800px;
+			margin: 0 auto 20px auto;
+
+			blockquote p {
+				color: #666;
+				font-size: 30px;
+				line-height: 40px;
+			}
+		}
+
+		.testimonial-image {
+			height: 60px;
+			margin-bottom: 10px;
+
+			img {
+				margin: 0 auto;
+				width: 60px;
+				height: 60px;
+				border-radius: 30px;
+			}
+		}
+
+		.testimonial-name {
+
+			.textwidget p {
+				color: #999;
+				font-family: $font-sans;
+				font-size: 14px;
+				line-height: 14px;
+			}
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: About The Author
+	//-------------------------------------------------------------------------------
+
+	.about-the-author {
+		background-color: $color-background-author; 
+
+		.author-bio {
+			height: auto;
+			@extend %margins-left;
+			padding-top: 80px;
+			padding-bottom: 80px;
+
+			@media (max-width: $bp-tablet ) {
+				padding-top: 40px;
+				padding-bottom: 16px; // = 40px - 24px paragraph padding
+
+			}
+
+			h3.widget-title {
+				display: block;
+				@extend %style-heading;
+				font-weight: 700;
+				color: #222;
+			}
+
+			p {
+				@extend %style-paragraph;
+				color: #888;
+
+				a {
+					color: #666;
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.author-image {
+			min-height: 100vh;
+			background-image:url(https://s3.amazonaws.com/fullsingle/flyleaf-author.jpg); // Need to include within layout cells on future Page Builder update
+			background-position:center center;
+			background-size:cover;
+
+			@media (max-width: $bp-tablet ) {
+				min-height: 80vh;
+				height: 80vh;
+			}	
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: What's inside
+	//-------------------------------------------------------------------------------
+
+	.whats-inside {
+		max-width: 940px;
+		padding: 80px 0;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+
+		@media (max-width: $bp-tablet ) {
+			padding: 40px 5% 0 5%;
+			max-width: 100%;
+		}
+
+		.book-overview { // not the same stlyes/widths as intro and author because of wider left paragraph
+			padding-right: 40px;
+
+			@media (max-width: $bp-tablet ) {
+				margin-left: 0;
+				max-width: 100%;
+				padding-right: 0;
+				padding-bottom: 0;
+			}
+
+			h3.widget-title {
+				display: block;
+				@extend %style-heading;
+				font-weight: 700;
+				color: #FFF;
+			}
+
+			p {
+				@extend %style-paragraph;
+				color: #FFF;
+
+				a {
+					color: #FFF;
+					text-decoration: underline;
+				}
+			}
+		}
+
+		.stats-column {
+
+			.stats {
+
+				.stat {
+					margin-bottom: 40px;
+
+					h3.widget-title {
+						display: block;
+						font-size: 32px;
+						line-height: 32px;
+						margin-bottom: 10px;
+						letter-spacing: -1px;
+						color: #FFF;
+					}
+
+					p {
+						@extend %style-meta;
+					}
+				}
+			}	
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: Spread
+	//-------------------------------------------------------------------------------
+
+	.spread {
+		padding-bottom: 40px; 
+
+		@media (max-width: $bp-mobile ) {
+			padding-bottom: 20px; 
+		}
+
+		img {
+			max-width: 1200px;
+			margin: 0 auto;
+			width: 90%;
+			height: auto;
+		}
+	}
+
+	//-------------------------------------------------------------------------------
+	// Section: Final Download
+	//-------------------------------------------------------------------------------
+
+	.final-download {
+		background-color: $color-background-darker;
+		padding: 80px 0;
+		font-family: $font-sans;
+		text-align: center;
+
+		@media (max-width: $bp-mobile ) {
+			padding: 40px; 
+		}
+
+		a.button-buy {
+			@extend %style-button-buy;
+			margin-bottom: 20px;
+
+			@media (max-width: $bp-mobile ) {
+				width: 100%; 
+			}
+		}
+
+		.download-sample {
+			@extend %style-link-sample;
+		}
+	}
+}
+

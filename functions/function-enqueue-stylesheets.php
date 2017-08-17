@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.4.0
+ * @version 0.4.1.1
  * @license GPL 2.0
  *
 */
@@ -14,6 +14,10 @@
 function fullsingle_load_plugin_styles() {
 
 	$layout_dir = plugin_dir_url( __FILE__ ) . '../layouts/';
+
+	if  ( is_page_template( 'templates/page-fullsingle-bristle.php' ) ) {
+	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'bristle/bristle.css'  	 	, 10 );
+	}
 
 	if  ( is_page_template( 'templates/page-fullsingle-flyleaf.php' ) ) {
 	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'flyleaf/flyleaf.css'  	 	, 10 );
