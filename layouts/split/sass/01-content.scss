@@ -15,11 +15,15 @@ $color-text			: #848d96;
 $color-link			: #848d96;
 $color-link-hover	: #CA486d; 
 $color-maverick		: #47bec7; 
+$color-tagline		: #CCCCCC; 
 
 // Breakpoints
 $bp-smallish 		: 1200px;
 $bp-tablet 			: 800px;
 $bp-mobile 			: 500px;
+
+// Images
+$image-background	: url(https://s3.amazonaws.com/fullsingle/split-bg.jpg); // Need to include within layout cells on future Page Builder update
 
 //-------------------------------------------------------------------------------
 // Fade In
@@ -56,7 +60,6 @@ body.page-template-page-fullsingle-split {
 	}
 
 	p {
-		// margin-bottom: 28px;
 		color: $color-text;
 
 	}
@@ -75,138 +78,207 @@ body.page-template-page-fullsingle-split {
 		margin: 0;
 	}
 
-	//-------------------------------------------------------------------------------
-	// Sections
-	//-------------------------------------------------------------------------------
+}
 
-	.fs-split {
+//-------------------------------------------------------------------------------
+// Columns
+//-------------------------------------------------------------------------------
 
-		.split-image {
-			height: 100vh;
-			background-image:url(https://s3.amazonaws.com/fullsingle/split-bg.jpg); // Need to include within layout cells on future Page Builder update
-			background-position:center center;
-			background-size:cover;
+.fs-split { 
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+
+	@media (max-width: $bp-tablet ) {
+		height: auto;
+		flex-wrap: wrap;
+	}	
+
+	.split-image {
+		// width: 50%; from HTML version but Page Builder adds this
+		height: 100vh;
+		background-image: $image-background;
+		background-position:center center;
+		background-size:cover;
+
+		@media (max-width: $bp-tablet ) {
+			height: 80vh;
+			width: 100%;
+		}	
+
+	}
+
+	.split-content {
+		// width: 50%; from HTML version but Page Builder adds this
+		min-height: 100vh;
+		display: flex;
+		align-items: center;
+  		justify-content: center;
+  		overflow: auto;
+
+		@media (max-width: $bp-tablet ) {
+			width: 100%;
+			height: auto;
+		}	
+
+		div:first-child { // this is .split-content-vertically-center on HTML version of Split
+			padding: 80px;
+			max-width: 640px;
+			margin-top: auto;
+  			margin-bottom: auto;
+
+			@media (max-width: $bp-smallish ) {
+				padding: 60px;
+			}
 
 			@media (max-width: $bp-tablet ) {
-				height: 80vh;
+				padding: 40px;
 			}	
 
-		}
-
-		.split-content {
-			height: 100vh;
-
-			.split-intro {
-				padding: 80px 80px 0 80px;
-				font-weight: 600;
-				font-size: 64px; 
-				line-height: 80px;
-				letter-spacing: -2px;
-
-				@media (max-width: $bp-smallish ) {
-					padding: 60px 60px 0 60px;
-				}	
-
-				@media (max-width: $bp-tablet ) {
-					padding: 40px 40px 0 40px;
-				}	
-
-				p {
-					color: #CCC;
-				}
-
-				h3 {
-					font-weight: 400;
-					text-transform: uppercase;
-					font-size: 16px; 
-					line-height: 16px;
-					margin-bottom: 40px;
-					letter-spacing: 0.4px;
-					color: $color-maverick;
-				}
-
-			}
-
-			.split-bio {
-				padding: 40px 80px 0 80px;
-				font-family: 'Lora', serif;
-
-				@media (max-width: $bp-smallish ) {
-					padding: 40px 60px 0 60px;
-				}
-
-				@media (max-width: $bp-tablet ) {
-					padding: 40px 40px 0 40px;
-				}	
-
-				p {
-					color: $color-text;
-				}
-	
-				a {
-					color: $color-link;
-					transition-duration: 0.5s;
-					border-bottom: 1px dotted $color-link;
-
-					&:hover {
-						color: $color-link-hover;
-						transition-duration: 0.1s;
-						border-bottom: 1px dotted $color-link-hover;
-					}
-
-				}			
-
-			}
-
-			.split-lists {
-				padding: 60px 80px 40px 80px;
-
-				@media (max-width: $bp-smallish ) {
-					padding: 40px 60px 40px 60px;
-				}
-
-				@media (max-width: $bp-tablet ) {
-					padding: 40px 40px 20px 40px;
-				}	
-
-				h3 {
-					font-weight: 400;
-					text-transform: uppercase;
-					font-size: 11px;
-					line-height: 11px;
-					margin-bottom: 31px;
-					color: $color-text;
-					letter-spacing: 2px;
-					opacity: 0.5;
-				}
-
-				ul {
-					margin-right: 10px;
-
-					li {
-						font-size: 16px;
-						line-height: 16px;	
-						margin-bottom: 12px;
-						
-						a {
-							color: $color-link;
-							transition-duration: 0.5s;
-
-							&:hover {
-								color: $color-link-hover;
-								transition-duration: 0.1s;
-							}
-
-						}
-						
-					}
-
-				}
-
+			div { // hacks for divs within this div
+				padding: 0;
 			}
 
 		}
-  
+
 	}
 
 }
+
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+//-------------------------------------------------------------------------------
+// Intro Text
+//-------------------------------------------------------------------------------
+
+.split-intro {
+	font-weight: 600;
+	font-size: 64px; 
+	line-height: 80px;
+	letter-spacing: -2px;
+
+	div div p { // bit of a hack I know ;P
+		color: $color-tagline;
+		margin-bottom: 40px;
+	}
+
+	h3 {
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 16px; 
+		line-height: 16px;
+		margin-bottom: 40px;
+		letter-spacing: 0.4px;
+		color: $color-maverick;
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Biography
+//-------------------------------------------------------------------------------
+
+.split-bio {
+	padding: 40px 0 4px 0;
+	font-family: 'Lora', serif;
+
+	@media (max-width: $bp-smallish ) {
+		padding: 30px 0;
+	}
+
+	@media (max-width: $bp-tablet ) {
+		padding: 20px 0;
+	}	
+
+	p {
+		color: $color-text;
+		margin-bottom: 40px;
+	}
+
+	a {
+		color: $color-link;
+		transition-duration: 0.5s;
+		border-bottom: 1px dotted $color-link;
+
+		&:hover {
+			color: $color-link-hover;
+			transition-duration: 0.1s;
+			border-bottom: 1px dotted $color-link-hover;
+		}
+
+	}			
+
+}
+
+//-------------------------------------------------------------------------------
+// Lists
+//-------------------------------------------------------------------------------
+
+.split-lists {
+	padding: 60px 0 40px 0;
+
+	@media (max-width: $bp-smallish ) {
+		padding: 40px 0;
+	}
+
+	@media (max-width: $bp-tablet ) {
+		padding: 40px 0 20px 0;
+	}	
+
+	h3 {
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 11px;
+		line-height: 11px;
+		margin-bottom: 31px;
+		color: $color-text;
+		letter-spacing: 2px;
+		opacity: 0.5;
+	}
+
+	ul {
+		margin-right: 10px;
+		margin-bottom: 40px;
+
+		li {
+			font-size: 16px;
+			line-height: 16px;	
+			margin-bottom: 12px;
+			
+			a {
+				color: $color-link;
+				transition-duration: 0.5s;
+
+				&:hover {
+					color: $color-link-hover;
+					transition-duration: 0.1s;
+				}
+
+			}
+			
+		}
+
+	}
+
+}
+
+//-------------------------------------------------------------------------------
+// Credit
+//-------------------------------------------------------------------------------
+
+.split-credit {
+	opacity: 0.4;
+
+	p {
+		font-size: 12px; 
+		line-height: 14px;
+
+		a { 
+			color: $color-text;
+		}
+
+	}
+
+}	

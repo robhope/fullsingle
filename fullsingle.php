@@ -3,7 +3,7 @@
 Plugin Name: FullSingle
 Plugin URI: https://onepagelove.com/fullsingle
 Description: Beautiful Free Landing Page layouts that work with any WordPress theme.
-Version: 0.5
+Version: 0.5.0.1
 Author: One Page Love
 Author URI: https://onepagelove.com
 License: GPLv2 or later
