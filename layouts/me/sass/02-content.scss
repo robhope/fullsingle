@@ -1,45 +1,15 @@
 //-------------------------------------------------------------------------------
-// Font Import
-//-------------------------------------------------------------------------------
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:500');
-
-//-------------------------------------------------------------------------------
-// Variables
-//-------------------------------------------------------------------------------
-
-// Colors
-$color-background	: #141414;
-
-// Breakpoints
-$bp-smallish 		: 1200px;
-$bp-tablet 			: 800px;
-$bp-mobile 			: 500px;
-
-//-------------------------------------------------------------------------------
-// Fade In
-//-------------------------------------------------------------------------------
-
-@keyframes fadein {
-    from { opacity: 0;}
-    to   { opacity: 1;}
-}
-
-//-------------------------------------------------------------------------------
 // Content
 //-------------------------------------------------------------------------------
 
-html {
-	background-color: $color-background; 
-}
 body.page-template-page-fullsingle-me {
 	background-color: $color-background; 
-	font-family: 'Roboto', sans-serif;
+	font-family: $font-sans;
 	font-weight: 500;
 	font-size: 45px;
 	line-height: 60px;
 	letter-spacing: -0.5px;
-	color: #999;
+	color: $color-text;
 
 	//-------------------------------------------------------------------------------
 	// Site Origin Page Builder Global Styles
@@ -58,7 +28,7 @@ body.page-template-page-fullsingle-me {
 
 	p {
 		margin-bottom: 28px;
-		color: #999;
+		color: $color-text;
 
 		@media (max-width: $bp-tablet ) {
 			font-size: 32px;
@@ -76,6 +46,7 @@ body.page-template-page-fullsingle-me {
 
 		@media (max-width: $bp-mobile ) {
 			padding: 5vh 5vw;
+			text-align: center;
 		}	
 
 	  	.panel-grid-cell {
@@ -86,12 +57,21 @@ body.page-template-page-fullsingle-me {
 			@media (max-width: $bp-mobile ) {
 				height: 90vh; // as padding now 5vh 5vw
 			}	
-		  	.so-panel:nth-child(1) { // .logo
+
+			//-------------------------------------------------------------------------------
+			// Logo
+			//-------------------------------------------------------------------------------
+
+		  	.so-panel:nth-child(1) { 
 				flex: 1 1 auto;
 		  		display: flex;
 		  		flex-direction: column;
 		  		align-self: left;
 		  		animation: fadein 2s;
+
+				@media (max-width: $bp-mobile ) {
+					align-self: center;
+				}
 
 				img {
 					max-width: 165px;
@@ -99,7 +79,11 @@ body.page-template-page-fullsingle-me {
 				}
 			}
 
-			.so-panel:nth-child(2) { // .bio
+			//-------------------------------------------------------------------------------
+			// Bio
+			//-------------------------------------------------------------------------------
+
+			.so-panel:nth-child(2) { 
 				flex: 1 1 auto;
 		  		display: flex;
 		  		flex-direction: column;
@@ -108,18 +92,28 @@ body.page-template-page-fullsingle-me {
 				letter-spacing: -1px;
 
 				a {
-					color: #CCC;
+					color: $color-text-link;
+
 					&:hover {
-						color: #FFF;
+						color: $color-text-link-hover;
 					}
 				}
 			}
 
-			.so-panel:nth-child(3) { // .network
+			//-------------------------------------------------------------------------------
+			// Network
+			//-------------------------------------------------------------------------------
+
+			.so-panel:nth-child(3) { 
 				flex: 1 1 auto;
 	  			display: flex;
 	  			flex-direction: column;
 	  			animation: fadein 6s;
+	  			margin-bottom: 0 !important; // kills gap under icons
+	  			
+				@media (max-width: $bp-mobile ) {
+					align-self: center;
+				}
 
 	  			.network {
 				    margin-top: auto;
@@ -130,25 +124,43 @@ body.page-template-page-fullsingle-me {
 	  				margin: 0 16px 0 0;
 	  				font-size: 22px;
 	  				line-height: 22px;
-	  				color: #999;
+	  				color: $color-icon;
 	  			}
 
 	  			.sow-icon-fontawesome {
-	  				color: #999;
+	  				color: $color-icon;
 
 	  				&:hover {
-	  					color: #FFF;
+	  					color: $color-icon-hover;
 	  				}
 
 	  			}
 
-			}
+	  		}
 
+			//-------------------------------------------------------------------------------
+			// Credit
+			//-------------------------------------------------------------------------------
+
+			.so-panel:nth-child(4) {
+				animation: fadein 8s;
+
+				p.credit {
+					opacity: 0.4;
+					font-size: 12px; 
+					line-height: 14px;
+					font-weight: 400;
+
+					a { 
+						color: $color-text;
+					}
+
+				}
+
+			}
+			
 	  	}
 		
 	}
 
 }
-
-
-	

@@ -1,45 +1,15 @@
 //-------------------------------------------------------------------------------
-// Font Import
-//-------------------------------------------------------------------------------
-
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
-
-//-------------------------------------------------------------------------------
-// Variables
-//-------------------------------------------------------------------------------
-
-// Colors
-$color-background	: #FFFFFF;
-
-// Breakpoints
-$bp-smallish 		: 1200px;
-$bp-tablet 			: 800px;
-$bp-mobile 			: 500px;
-
-//-------------------------------------------------------------------------------
-// Fade In
-//-------------------------------------------------------------------------------
-
-@keyframes fadein {
-    from { opacity: 0; margin-top: 10px; }
-    to   { opacity: 1; margin-top: 0;}
-}
-
-//-------------------------------------------------------------------------------
 // Content
 //-------------------------------------------------------------------------------
 
-html {
-	background-color: $color-background; 
-}
 body.page-template-page-fullsingle-vitae {
 	background-color: $color-background; 
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: $font-sans;
 	font-weight: 400;
 	font-size: 21px;
 	line-height: 33px;
 	letter-spacing: -0.5px;
-	color: #555;
+	color: $color-text;
 	animation: fadein 2s;
 
 	//-------------------------------------------------------------------------------
@@ -52,7 +22,7 @@ body.page-template-page-fullsingle-vitae {
 
 	p {
 		margin-bottom: 28px;
-		color: #555;
+		color: $color-text;
 
 	}
 
@@ -97,9 +67,8 @@ body.page-template-page-fullsingle-vitae {
 	}
 
 	//-------------------------------------------------------------------------------
-	// Sections
+	// About
 	//-------------------------------------------------------------------------------
-
 
 	.about {
 
@@ -118,19 +87,23 @@ body.page-template-page-fullsingle-vitae {
 
 	}
 
+	//-------------------------------------------------------------------------------
+	// History & Networks
+	//-------------------------------------------------------------------------------
+
 	.history, .networks {
-		background-color: #222;
-		color: #EEE;
+		background-color: $color-background-dark;
+		color: $color-text-dark;
 
 		p {
-			color: #EEE;
+			color: $color-text-dark;
 		}
 
 		a {
-			color: #EEE;
+			color: $color-text-dark;
 
 			&:hover {
-				color: #FFF;
+				color: $color-link;
 			}
 		}
 
@@ -138,7 +111,7 @@ body.page-template-page-fullsingle-vitae {
 			li {
 				list-style: none;
 				em {
-					color: #666;
+					color: $color-date;
 					padding-left: 24px;
 				}
 			}
@@ -149,19 +122,23 @@ body.page-template-page-fullsingle-vitae {
 		padding-bottom: 0;
 	}
 
+	//-------------------------------------------------------------------------------
+	// Contact
+	//-------------------------------------------------------------------------------
+
 	.contact {
-		background-color: #151515;
-		color: #DDD;
+		background-color: $color-background-dark;
+		color: $color-text-darker;
 
 		p {
-			color: #DDD;
+			color: $color-text-darker;
 		}
 
 		a {
-			color: #DDD;
+			color: $color-text-darker;
 
 			&:hover {
-				color: #FFF;
+				color: $color-link;
 			}
 		}
 
@@ -171,4 +148,41 @@ body.page-template-page-fullsingle-vitae {
 			}
 		}		
 	}
+
+	//-------------------------------------------------------------------------------
+	// Copyright
+	//-------------------------------------------------------------------------------
+
+	.row-copyright {
+		padding: 20px 160px;
+		background-color: $color-background-copyright;
+		color: $color-copyright;
+
+		@media (max-width: $bp-smallish ) {
+			padding: 20px 80px;
+		}
+
+		@media (max-width: $bp-tablet ) {
+			padding: 20px 60px;
+		}
+
+		@media (max-width: $bp-mobile ) {
+			padding: 20px 40px;
+		}
+
+		p.copyright {
+			font-size: 13px;
+			line-height: 13px;
+			margin-bottom: 0;
+			color: $color-copyright;
+			opacity: 0.2;
+
+			a {
+				color: $color-copyright;
+			}
+
+		}	
+
+	}
+
 }

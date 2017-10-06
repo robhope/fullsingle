@@ -2,14 +2,10 @@
 // Content
 //-------------------------------------------------------------------------------
 
-html {
-	background-color: $color-background; 
-}
 body.page-template-page-fullsingle-bristle {
+	background-color: $color-background; 
 	border-color: $color-page-border;
 	border-style: solid;
-	@extend %global-border-width;
-	background-color: $color-background; 
 	font-family: $font-sans;
 	font-weight: 400;
 	font-size: 21px;
@@ -17,6 +13,7 @@ body.page-template-page-fullsingle-bristle {
 	letter-spacing: -0.2px;
 	color: $color-text;
 	animation: fadein 2s; 
+	@extend %global-border-width;
 	@extend %global-padding;
 
 	//-------------------------------------------------------------------------------
@@ -93,7 +90,7 @@ body.page-template-page-fullsingle-bristle {
 		.header-links {
 			font-size: 18px;
 			line-height: 30px;
-			color: #999;
+			color: $color-link;
 			margin-bottom: 70px;
 
 			@media (max-width: $bp-smallish  ) {
@@ -130,10 +127,10 @@ body.page-template-page-fullsingle-bristle {
 					a {
 						display: block;
 						margin: 0 12px;
-						color: #999;
+						color: $color-link;
 
 						&:hover {
-							color: #333;
+							color: $color-link-hover;
 						}
 					}
 				}
@@ -203,7 +200,7 @@ body.page-template-page-fullsingle-bristle {
 
 			.project-image {
 				margin-bottom: 16px;
-				background-color: #FFF;
+				background-color: $color-background;
 				overflow: hidden;
 
 				img {
@@ -228,10 +225,10 @@ body.page-template-page-fullsingle-bristle {
 					font-size: 18px;
 					line-height: 18px;
 					font-weight: bold;
-					color: #333; 
+					color: $color-project-title; 
 
 					a {
-						color: #333; 
+						color: $color-project-title; 
 					}
 				}
 			}
@@ -241,10 +238,10 @@ body.page-template-page-fullsingle-bristle {
 
 					font-size: 14px;
 					line-height: 14px;
-					color: #999;
+					color: $color-link;
 					
 					a {
-						color: #999; 
+						color: $color-link; 
 					}
 				}
 			}
@@ -252,20 +249,20 @@ body.page-template-page-fullsingle-bristle {
 	}
 
 	//-------------------------------------------------------------------------------
-	// Projects
+	// Contact Details
 	//-------------------------------------------------------------------------------
 
 	.row-contact {
-		margin-bottom: 80px;
+		margin-bottom: 120px;
 
 		@media (max-width: $bp-smallish  ) {
-			margin-bottom: 60px;
+			margin-bottom: 80px;
 		}	
 		@media (max-width: $bp-tablet  ) {
-			margin-bottom: 40px;
+			margin-bottom: 60px;
 		}
 		@media (max-width: $bp-mobile  ) {
-			margin-bottom: 20px;
+			margin-bottom: 40px;
 		}	
 
 		.contact-details {
@@ -274,18 +271,42 @@ body.page-template-page-fullsingle-bristle {
 			p {
 				font-size: 18px;
 				line-height: 26px;
-				color: #AAA;
+				color: $color-contact-details;
 
 				a {
-					color: #AAA;
+					color: $color-contact-details;
 					text-decoration: underline;
 
 					&:hover {
-						color: #666;
+						color: $color-link-hover;
 					}
 				}
 			}
 		}
 	}
+
+	//-------------------------------------------------------------------------------
+	// Copyright
+	//-------------------------------------------------------------------------------
+
+	.row-copyright {
+		text-align: center;
+		position: relative;
+		bottom: -45px;
+
+		@media (max-width: $bp-mobile  ) {
+			bottom: -36px;
+		}	
+
+		p.copyright {
+			font-size: 13px;
+			line-height: 13px;
+			color: $color-copyright;
+
+			a {
+				color: $color-copyright;
+			}
+		}
+	}	
 }
 

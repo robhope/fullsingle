@@ -13,6 +13,6 @@ Changes here are pushed to our [plugin page](https://wordpress.org/plugins/fulls
 
 Hope you can make something awesome with FullSingle!
 
-Cheers,
-Rob
-[@robhope](https://twitter.com/robhope)
+Cheers,  
+Rob  
+[@robhope](https://twitter.com/robhope)  

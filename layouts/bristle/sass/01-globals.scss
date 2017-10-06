@@ -15,8 +15,11 @@ $font-sans	: 'Roboto', Helvetica, Arial, sans-serif;
 $color-background 			: #FFFFFF;
 $color-page-border		 	: #FED0C5;
 $color-text					: #666666;
-$color-link					: #666666;
+$color-link					: #999999;
 $color-link-hover			: #333333; 
+$color-project-title		: #333333; 
+$color-contact-details		: #AAAAAA; 
+$color-copyright			: #FFFFFF;
 
 // Breakpoints
 $bp-smallish 		: 1200px;
@@ -45,13 +48,13 @@ $bp-mobile 			: 500px;
 }
 
 %global-padding {
-	padding: 80px;
+	padding: 80px 80px 20px 80px;
 
 	@media (max-width: $bp-smallish  ) {
-		padding: 60px;
+		padding: 60px 60px 20px 60px;
 	}	
 	@media (max-width: $bp-tablet  ) {
-		padding: 40px;
+		padding: 40px 40px 20px 40px;
 	}
 	@media (max-width: $bp-mobile  ) {
 		padding: 20px;

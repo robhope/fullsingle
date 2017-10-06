@@ -2,9 +2,6 @@
 // Content
 //-------------------------------------------------------------------------------
 
-html {
-	background-color: $color-background; 
-}
 body.page-template-page-fullsingle-flyleaf {
 	background-color: $color-background; 
 	font-family: $font-serif;
@@ -355,14 +352,15 @@ body.page-template-page-fullsingle-flyleaf {
 
 	.final-download {
 		background-color: $color-background-darker;
-		padding: 80px 0;
+		padding: 80px 0 0 0;
 		font-family: $font-sans;
 		text-align: center;
 
 		@media (max-width: $bp-mobile ) {
-			padding: 40px; 
+			padding: 40px 40px 0 40px; 
 		}
 
+		// Buy Button
 		a.button-buy {
 			@extend %style-button-buy;
 			margin-bottom: 20px;
@@ -372,9 +370,29 @@ body.page-template-page-fullsingle-flyleaf {
 			}
 		}
 
+		// Download Same Link
 		.download-sample {
 			@extend %style-link-sample;
 		}
-	}
-}
 
+		// Copyright Link
+		p.copyright {
+			padding: 60px 0 20px 0;
+			font-size: 13px;
+			line-height: 13px;
+			color: $color-copyright;
+			opacity: 0.4;
+
+			@media (max-width: $bp-mobile ) {
+				padding: 40px 0 20px 0; 
+			}
+
+			a {
+				color: $color-copyright;
+			}
+
+		}
+
+	}
+
+}

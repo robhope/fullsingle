@@ -1,0 +1,39 @@
+//-------------------------------------------------------------------------------
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Fonts 
+$font-sans	: 'Source Sans Pro', sans-serif;
+
+// Colors
+$color-background 			: #FFFFFF;
+$color-background-dark 		: #222222;
+$color-background-darker 	: #151515;
+$color-background-copyright : #111111;
+$color-text					: #555555;
+$color-text-dark			: #EEEEEE;
+$color-text-darker			: #DDDDDD;
+$color-link					: #FFFFFF;
+$color-link-hover			: #FFFFFF; 
+$color-date					: #666666;
+$color-copyright			: #FFFFFF; 
+
+// Breakpoints
+$bp-smallish 		: 1200px;
+$bp-tablet 			: 800px;
+$bp-mobile 			: 500px;
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0; margin-top: 10px; }
+    to   { opacity: 1; margin-top: 0;}
+}
