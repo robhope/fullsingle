@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid, onepage, one page, page builder
 Requires at least: 4.8.2
 Tested up to: 4.8.2
-Stable tag: 0.5.1
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -67,6 +67,9 @@ FullSingle works with _any_ existing WordPress theme. Simply install the plugin 
 No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/siteorigin-panels/). This Page Builder has over 1 million active installs and is well supported by the SiteOrigin team. So you are in good hands.
 
 == Changelog ==
+
+= 0.5.2 - 08 October 2017 =
+* Added dashboard warning notice if user uploads the Plugin as a Theme
 
 = 0.5.1 - 06 October 2017 =
 * All layouts: Labeling of all Page Builder UI boxes for easier editing
@@ -146,7 +149,5 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Upgrade Notice ==
 
-= 0.5.1 - 06 October 2017 =
-* All layouts: Labeling of all Page Builder UI boxes for easier editing
-* All layouts: Removed HTML specific CSS styles to not interfere with existing theme styles
-* All layouts: Added copyright footers
+= 0.5.2 - 08 October 2017 =
+* Added dashboard warning notice if user uploads the Plugin as a Theme
