@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.1
+ * @version 0.5.2.2
  * @license GPL 2.0
  *
 */
@@ -14,7 +14,7 @@
 // [within brackets] matches wp_parse_args in styles.php
 
 $wp_customize->add_setting(    'fullsingle_settings[me_color_body_background]', array(  
-    'default'               => '#FFFFFF',
+    'default'               => '#141414',
     'sanitize_callback'     => 'sanitize_hex_color', 
 ));
 

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.1
+ * @version 0.5.2.2
  * @license GPL 2.0
  *
 */
@@ -13,7 +13,7 @@
 $color = get_theme_mod('fullsingle_settings');
 
 $color = wp_parse_args($color, array(
-    'bristle_color_body_background'      => '#FE818F',    
+    'bristle_color_body_background'      => '#FFFFFF',    
 ));
 
 ?>
