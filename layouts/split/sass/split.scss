@@ -4,8 +4,9 @@ Author: One Page Love
 Author URI: https://onepagelove.com
 Layout URI: https://onepagelove.com/fullsingle
 Description: Split is a centrally-divided layout for a professional online presence with a big image left with alongside content.
-Version: 0.5.1
+Version: 0.5.3
 */
 
 @import "00-reset";
-@import "01-content";
+@import "01-globals";
+@import "02-content";

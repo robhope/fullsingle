@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.0.8
+ * @version 0.5.2.1
  * @license GPL 2.0
  *
 */
@@ -13,11 +13,7 @@
 // Removes input boxes, bit of a hack I know ;P
 function fullsingle_customizer_inline_styles() { ?>
 	<style>
-	    li#customize-control-fullsingle_credit textarea,
-		li#customize-control-fullsingle_customizer_setup_documentation_setting input,
-		li#customize-control-fullsingle_customizer_setup_support_setting input {
-			display: none !important;
-		}
+		ul.customize-pane-child input {display: none !important;}
 	</style>
 	<?php
 }

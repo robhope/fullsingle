@@ -1,0 +1,35 @@
+//-------------------------------------------------------------------------------
+// Font Import
+//-------------------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Colors
+$color-background 	: #061C30;
+$color-text			: #848d96;
+$color-link			: #848d96;
+$color-link-hover	: #CA486d; 
+$color-maverick		: #47bec7; 
+$color-tagline		: #CCCCCC; 
+
+// Breakpoints
+$bp-smallish 		: 1200px;
+$bp-tablet 			: 800px;
+$bp-mobile 			: 500px;
+
+// Images
+$image-background	: url(https://s3.amazonaws.com/fullsingle/split-bg.jpg); // Need to include within layout cells on future Page Builder update
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}

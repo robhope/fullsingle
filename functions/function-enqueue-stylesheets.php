@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.4.1.1
+ * @version 0.5.2.1
  * @license GPL 2.0
  *
 */
@@ -24,17 +24,17 @@ function fullsingle_load_plugin_styles() {
 	}
 
 	elseif  ( is_page_template( 'templates/page-fullsingle-me.php' ) ) {
-	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'me/me.css'  	 	, 10 );
+	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'me/me.css'  	 			, 10 );
 	}
 
 	elseif  ( is_page_template( 'templates/page-fullsingle-split.php' ) ) {
-	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'split/split.css'  	, 10 );
+	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'split/split.css'  			, 10 );
 	}
 
 	elseif  ( is_page_template( 'templates/page-fullsingle-vitae.php' ) ) {
-	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'vitae/vitae.css'  	, 10 );
+	    wp_enqueue_style( 'fullsingle-style', $layout_dir . 'vitae/vitae.css'  			, 10 );
 	};
 
 }
 
-add_action( 'wp_enqueue_scripts', 'fullsingle_load_plugin_styles', 999 );
+add_action( 'wp_enqueue_scripts', 'fullsingle_load_plugin_styles', 	999 );
