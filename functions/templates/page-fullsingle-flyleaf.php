@@ -3,7 +3,7 @@
  * Template Name: FullSingle - Flyleaf
  * 
  * @package fullsingle
- * @since fullsingle 0.4.0
+ * @version 0.5.2.4
  * @license GPL 2.0
  * 
  */
@@ -19,7 +19,7 @@
 	<!-- Responsive stylesheet -->
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	
-	<?php wp_head(); ?>
+	<?php fullsingle_indented_wp_head(); ?>
 
 </head>
 

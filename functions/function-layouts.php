@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.4.1.1
+ * @version 0.5.2.4
  * @license GPL 2.0
  *
 */
@@ -27,3 +27,16 @@ function fullsingle_prebuilt_layouts($layouts) {
 }
 
 add_filter('siteorigin_panels_prebuilt_layouts','fullsingle_prebuilt_layouts');
+
+# -------------------------------------------------------------
+# Ultra geeky wp_head indentation
+# -------------------------------------------------------------
+
+function fullsingle_indented_wp_head(){
+    ob_start();
+    wp_head();
+    $header = ob_get_contents();
+    ob_end_clean();
+    echo preg_replace("/\n/", "\n\t", substr($header, 0, -1));
+    echo "\n";
+}

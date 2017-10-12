@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.2
+ * @version 0.5.2.4
  * @license GPL 2.0
  *
 */
@@ -47,8 +47,14 @@ $wp_customize->add_control(    'fullsingle_setting_bristle_extras', array(
     'description'           => '<span style="font-style: normal">
     <p>Unlock these Bristle Customizer options when upgrading to <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_section_support">FullSingle Pro</a>:</p>
     <ul>        
-    <li>🔒 Body Text Color</li>
-    <li>🔒 Body Text Link Color</li>    
+        <li>🔒 Page Border Color</li>
+        <li>🔒 Navigation Link Color</li>   
+        <li>🔒 Navigation Link Hover Color</li> 
+        <li>🔒 Big Intro Text Color</li>         
+        <li>🔒 Project Title Color</li> 
+        <li>🔒 Project Category Color</li>   
+        <li>🔒 Contact Details Color</li>
+        <li>🔒 Footer Copyright Color</li>   
     </ul>
     <hr style="margin-top: 20px; margin-bottom: 20px;" />  
     <h2>Useful Links:</h2>
