@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.4
+ * @version 0.5.2.5
  * @license GPL 2.0
  *
 */
@@ -57,10 +57,10 @@ $wp_customize->add_control(    'fullsingle_setting_bristle_extras', array(
         <li>🔒 Footer Copyright Color</li>   
     </ul>
     <hr style="margin-top: 20px; margin-bottom: 20px;" />  
-    <h2>Useful Links:</h2>
+    <h2>Useful Bristle Links:</h2>
     <ul>        
     <li><b style="display: inline-block; width: 80px;">Setup:</b>       <a href="https://onepagelove.com/go/fullsingle-setup-bristle">Watch Video</a></li>
-    <li><b style="display: inline-block; width: 80px;">Reference:</b>   <a href="https://demo.onepagelove.com/fullsingle/bristle-layout/">See Bristle Demo</a></li>     
+    <li><b style="display: inline-block; width: 80px;">Reference:</b>   <a href="https://demo.onepagelove.com/fullsingle/bristle-layout/">See Demo</a></li>     
     <li><b style="display: inline-block; width: 80px;">HTML:</b>        <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_section_support">Download HTML Version</a></li>        
     <li><b style="display: inline-block; width: 80px;">Support:</b>     <a href="/wp-admin/customize.php?autofocus[section]=fullsingle_section_support">Visit Support Panel</a></li>        
     </ul>
