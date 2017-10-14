@@ -50,7 +50,7 @@ $wp_customize->add_control(    'fullsingle_setting_me_extras', array(
         <li>🔒 Big Text Link Color</li> 
         <li>🔒 Big Text Link Hover Color</li>   
         <li>🔒 Social Icons Color</li>
-        <li>🔒 Social Icons Hover Color</li        
+        <li>🔒 Social Icons Hover Color</li>       
         <li>🔒 Footer Copyright Color</li>   
     </ul>
     <hr style="margin-top: 20px; margin-bottom: 20px;" />  

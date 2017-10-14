@@ -2,7 +2,7 @@
 Tags: builder, pages, layout, grid, onepage, one page, page builder
 Requires at least: 4.8.2
 Tested up to: 4.8.2
-Stable tag: 0.5.4
+Stable tag: 0.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Donate link: https://onepagelove.com/go/fullsingle-upgrade
@@ -68,7 +68,7 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Changelog ==
 
-= 0.5.4 - 12 October 2017 =
+= 0.5.3 - 12 October 2017 =
 * Bug fix: Fixed Customizer default color bug
 * Feature: Added Background Color Customizer options to all layouts
 * Improvement: Added geeky indentation to Page Template headers
@@ -154,7 +154,7 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Upgrade Notice ==
 
-= 0.5.4 - 12 October 2017 =
+= 0.5.3 - 12 October 2017 =
 * Bug fix: Fixed Customizer default color bug
 * Feature: Added Background Color Customizer options to all layouts
 * Improvement: Added geeky indentation to Page Template headers

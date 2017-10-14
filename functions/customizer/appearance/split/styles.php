@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.2
+ * @version 0.5.2.6
  * @license GPL 2.0
  *
 */
