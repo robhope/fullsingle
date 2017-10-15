@@ -1,7 +1,7 @@
 <?php
 /**
  * @package FullSingle
- * @version 0.5.2.2
+ * @version 0.5.2.7
  * @license GPL 2.0
  *
 */
@@ -17,9 +17,9 @@ $color = wp_parse_args($color, array(
 ));
 
 ?>
-<!-- FullSingle - Vitae - Customizer Styles Start -->
+<!-- FullSingle - vitae - Customizer Styles Start -->
 <style>
     body.page-template-page-fullsingle-vitae {background-color: <?php echo $color['vitae_color_body_background']; ?>;}
 </style>
-<!-- FullSingle - Vitae - Customizer Styles End -->
+<!-- FullSingle - vitae - Customizer Styles End -->
 <?php 

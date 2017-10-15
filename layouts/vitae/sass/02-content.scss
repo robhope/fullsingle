@@ -38,7 +38,7 @@ body.page-template-page-fullsingle-vitae {
 		font-weight: 600;
 		font-size: 13px;
 		text-transform: uppercase;
-		color: #444;
+		color: $color-text-section-titles;
 		letter-spacing: 1px;
 	}
 
@@ -83,6 +83,7 @@ body.page-template-page-fullsingle-vitae {
 			font-size: 32px;
 			line-height: 36px;
 			margin-bottom: 28px;
+			color: $color-text-intro;
 		}
 
 	}
@@ -92,18 +93,18 @@ body.page-template-page-fullsingle-vitae {
 	//-------------------------------------------------------------------------------
 
 	.history, .networks {
-		background-color: $color-background-dark;
-		color: $color-text-dark;
+		background-color: $color-background-work;
+		color: $color-text-work;
 
 		p {
-			color: $color-text-dark;
+			color: $color-text-work;
 		}
 
 		a {
-			color: $color-text-dark;
+			color: $color-text-work;
 
 			&:hover {
-				color: $color-link;
+				color: $color-text-work;
 			}
 		}
 
@@ -111,7 +112,7 @@ body.page-template-page-fullsingle-vitae {
 			li {
 				list-style: none;
 				em {
-					color: $color-date;
+					color: $color-text-date;
 					padding-left: 24px;
 				}
 			}
@@ -127,18 +128,18 @@ body.page-template-page-fullsingle-vitae {
 	//-------------------------------------------------------------------------------
 
 	.contact {
-		background-color: $color-background-darker;
-		color: $color-text-darker;
+		background-color: $color-background-contact;
+		color: $color-text-contact;
 
 		p {
-			color: $color-text-darker;
+			color: $color-text-contact;
 		}
 
 		a {
-			color: $color-text-darker;
+			color: $color-text-contact;
 
 			&:hover {
-				color: $color-link;
+				color: $color-text-contact;
 			}
 		}
 
@@ -153,10 +154,10 @@ body.page-template-page-fullsingle-vitae {
 	// Copyright
 	//-------------------------------------------------------------------------------
 
-	.row-copyright {
+	.copyright {
 		padding: 20px 160px;
 		background-color: $color-background-copyright;
-		color: $color-copyright;
+		color: $color-text-copyright;
 
 		@media (max-width: $bp-smallish ) {
 			padding: 20px 80px;
@@ -170,15 +171,14 @@ body.page-template-page-fullsingle-vitae {
 			padding: 20px 40px;
 		}
 
-		p.copyright {
+		p {
 			font-size: 13px;
 			line-height: 13px;
 			margin-bottom: 0;
-			color: $color-copyright;
-			opacity: 0.2;
+			color: $color-text-copyright;
 
 			a {
-				color: $color-copyright;
+				color: $color-text-copyright;
 			}
 
 		}	

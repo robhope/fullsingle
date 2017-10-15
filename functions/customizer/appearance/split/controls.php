@@ -53,7 +53,7 @@ $wp_customize->add_control(    'fullsingle_setting_split_extras', array(
         <li>🔒 Link Hover Color</li>
     </ul>
     <hr style="margin-top: 20px; margin-bottom: 20px;" />  
-    <h2>Useful split Links:</h2>
+    <h2>Useful Split Links:</h2>
     <ul>        
     <li><b style="display: inline-block; width: 80px;">Setup:</b>       <a href="https://onepagelove.com/go/fullsingle-setup-msplit">Watch Video</a></li>
     <li><b style="display: inline-block; width: 80px;">Reference:</b>   <a href="https://demo.onepagelove.com/fullsingle/split-layout/">See Demo</a></li>     
