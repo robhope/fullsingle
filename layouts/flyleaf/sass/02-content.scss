@@ -55,7 +55,7 @@ body.page-template-page-fullsingle-flyleaf {
 	//-------------------------------------------------------------------------------
 
 	.special-offer {
-		background-color: $color-background-darker;
+		background-color: $color-background-footer;
 		font-family: $font-sans;
 		height: auto;
 		text-align: center;
@@ -64,7 +64,7 @@ body.page-template-page-fullsingle-flyleaf {
 		padding: 16px;
 
 		a {
-			color: #FFF;
+			color: $color-text-special;
 			text-decoration: underline;
 		}
 	}
@@ -135,7 +135,8 @@ body.page-template-page-fullsingle-flyleaf {
 						@media (max-width: $bp-mobile ) {
 							width: 100%; 
 						}
-					}
+					}		
+
 				}
 
 				.download-sample {
@@ -162,7 +163,7 @@ body.page-template-page-fullsingle-flyleaf {
 	}
 
 	.testimonial-row {
-		background-color: $color-background-light;
+		background-color: $color-background-testi;
 		text-align: center;
 		padding: 120px 0;
 
@@ -180,7 +181,7 @@ body.page-template-page-fullsingle-flyleaf {
 			margin: 0 auto 20px auto;
 
 			blockquote p {
-				color: #666;
+				color: $color-text-testi-quote;
 				font-size: 30px;
 				line-height: 40px;
 			}
@@ -200,8 +201,8 @@ body.page-template-page-fullsingle-flyleaf {
 
 		.testimonial-name {
 
-			.textwidget p {
-				color: #999;
+			p {
+				color: $color-text-testi-name;
 				font-family: $font-sans;
 				font-size: 14px;
 				line-height: 14px;
@@ -232,15 +233,15 @@ body.page-template-page-fullsingle-flyleaf {
 				display: block;
 				@extend %style-heading;
 				font-weight: 700;
-				color: #222;
+				color: $color-text-author-heading;
 			}
 
 			p {
 				@extend %style-paragraph;
-				color: #888;
+				color: $color-text-author-content;
 
 				a {
-					color: #666;
+					color: $color-text-author-link;
 					text-decoration: underline;
 				}
 			}
@@ -289,15 +290,15 @@ body.page-template-page-fullsingle-flyleaf {
 				display: block;
 				@extend %style-heading;
 				font-weight: 700;
-				color: #FFF;
+				color: $color-text-inside-heading;
 			}
 
 			p {
 				@extend %style-paragraph;
-				color: #FFF;
+				color: $color-text-inside-content;
 
 				a {
-					color: #FFF;
+					color: $color-text-inside-content;
 					text-decoration: underline;
 				}
 			}
@@ -316,10 +317,11 @@ body.page-template-page-fullsingle-flyleaf {
 						line-height: 32px;
 						margin-bottom: 10px;
 						letter-spacing: -1px;
-						color: #FFF;
+						color: $color-text-inside-stats;
 					}
 
 					p {
+						color: $color-text-inside-stats;
 						@extend %style-meta;
 					}
 				}
@@ -351,7 +353,7 @@ body.page-template-page-fullsingle-flyleaf {
 	//-------------------------------------------------------------------------------
 
 	.final-download {
-		background-color: $color-background-darker;
+		background-color: $color-background-footer;
 		padding: 80px 0 0 0;
 		font-family: $font-sans;
 		text-align: center;
@@ -370,7 +372,7 @@ body.page-template-page-fullsingle-flyleaf {
 			}
 		}
 
-		// Download Same Link
+		// Download Sample Link
 		.download-sample {
 			@extend %style-link-sample;
 		}
@@ -380,15 +382,14 @@ body.page-template-page-fullsingle-flyleaf {
 			padding: 60px 0 20px 0;
 			font-size: 13px;
 			line-height: 13px;
-			color: $color-copyright;
-			opacity: 0.4;
+			color: $color-text-copyright;
 
 			@media (max-width: $bp-mobile ) {
 				padding: 40px 0 20px 0; 
 			}
 
 			a {
-				color: $color-copyright;
+				color: $color-text-copyright;
 			}
 
 		}

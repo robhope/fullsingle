@@ -1,16 +1,18 @@
 <?php
 /**
+ *
  * @package FullSingle
- * @version 0.5.2.4
+ * @version 0.5.3
  * @license GPL 2.0
  *
 */
 
 #-------------------------------------------------------------------------------
-# Customizer: Smoother Interal Linking
+# Customizer: Smoother Section Linking
 #-------------------------------------------------------------------------------
 
-function fullsingle_customizer_internal_links() { ?>
+function fullsingle_customizer_internal_links() {
+   ?>
    <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
@@ -28,9 +30,8 @@ function fullsingle_customizer_internal_links() { ?>
             });
         });
     })(jQuery);
-   </script><?php
+   </script>
+   <?php
 }
-
-add_action( 'customize_controls_print_scripts', 'fullsingle_customizer_internal_links' );
-
-// Change/edit the <a href="#avant-site-layout-section-header" rel="tc-section">Header</a>
+ 
+add_action('customize_controls_print_scripts', 'fullsingle_customizer_internal_links', 999);

@@ -14,14 +14,24 @@ $font-serif : "Old Standard TT", Georgia, sans-serif;
 
 // Colors
 $color-background 			: #FE818F;
-$color-background-darker 	: #FE5E70;
+$color-background-footer 	: #FE5E70;
 $color-background-author 	: #F2F2F2;
-$color-background-light 	: #FFFFFF;
+$color-background-testi 	: #FFFFFF;
 $color-text					: #FFFFFF;
-$color-link					: #FFFFFF;
-$color-link-hover			: #FFFFFF; 
-$color-maverick				: #F8354F; // buttons
-$color-copyright			: #FFFFFF; 
+$color-text-special			: #FFFFFF;
+$color-text-testi-name		: #999999;
+$color-text-testi-quote		: #666666;
+$color-text-author-heading	: #222222;
+$color-text-author-content	: #888888;
+$color-text-author-link		: #666666;
+$color-text-inside-heading	: #FFFFFF;
+$color-text-inside-content	: #FFFFFF;
+$color-text-inside-stats	: #FFFFFF;
+// $color-button				: #F8354F; needs to be edited within Page Builder UI
+// $color-button-text			: #FFFFFF; needs to be edited within Page Builder UI
+$color-link-sample			: #F9D5D9;
+$color-link-hover-sample	: #FFFFFF;
+$color-text-copyright		: #F3A5AB; 
 
 // Breakpoints
 $bp-smallish 		: 1200px;
@@ -65,6 +75,9 @@ $bp-mobile 			: 500px;
 	border-width: 2px;
 	border-style: solid;
 	font-weight: 700;
+	// color: $color-button-text; 		needs to be edited within Page Builder UI
+	// background-color: $color-button; needs to be edited within Page Builder UI
+	// border-color: $color-button; 	needs to be edited within Page Builder UI
 }
 
 %style-link-sample {
@@ -73,12 +86,12 @@ $bp-mobile 			: 500px;
 	line-height: 14px;
 
 	a {
-		opacity: 0.6;
-		color: #FFF;
-		border-bottom: 1px dashed #FFF;
+		color: $color-link-sample;
+		border-bottom: 1px dashed $color-link-sample;
 
 		&:hover {
-			opacity: 1;
+			color: $color-link-hover-sample;
+			border-bottom: 1px dashed $color-link-hover-sample;
 		}
 	}
 }

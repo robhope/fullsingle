@@ -68,10 +68,11 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Changelog ==
 
-= 0.5.3 - 12 October 2017 =
-* Bug fix: Fixed Customizer default color bug
+= 0.5.3 - 17 October 2017 =
 * Feature: Added Background Color Customizer options to all layouts
+* Feature: Added Bonus Downloads Customizer Panel
 * Improvement: Added geeky indentation to Page Template headers
+* Improvement: Smoother linking between Customizer sections
 
 = 0.5.2 - 08 October 2017 =
 * Added dashboard warning notice if user uploads the Plugin as a Theme
@@ -154,7 +155,8 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 
 == Upgrade Notice ==
 
-= 0.5.3 - 12 October 2017 =
-* Bug fix: Fixed Customizer default color bug
+= 0.5.3 - 17 October 2017 =
 * Feature: Added Background Color Customizer options to all layouts
+* Feature: Added Bonus Downloads Customizer Panel
 * Improvement: Added geeky indentation to Page Template headers
+* Improvement: Smoother linking between Customizer sections

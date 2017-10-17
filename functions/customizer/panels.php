@@ -1,7 +1,8 @@
 <?php
 /**
+ *
  * @package FullSingle
- * @version 0.5.2.1
+ * @version 0.5.3
  * @license GPL 2.0
  *
 */
@@ -20,7 +21,7 @@ function fullsingle_customizer_panels ( $wp_customize ) {
 		'priority'       => 998,
 		'capability'     => 'edit_theme_options',
 		'theme_supports' => '',
-		'title'          => 'FullSingle: Setup 🛠',
+		'title'          => '🛠 FullSingle: Setup',
 		'description'    => 'FullSingle Options and Documentation',
 	));  
 
@@ -32,7 +33,7 @@ function fullsingle_customizer_panels ( $wp_customize ) {
 		'priority'       => 999,
 		'capability'     => 'edit_theme_options',
 		'theme_supports' => '',
-		'title'          => 'FullSingle: Customization 🖌',
+		'title'          => '🖌 FullSingle: Customization',
 		'description'    => 'FullSingle Customization',
 	));  
 
