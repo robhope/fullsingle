@@ -14,7 +14,7 @@ Beautiful Free Landing Page layouts that work with any WordPress theme.
 
 FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin's Page Builder](https://wordpress.org/plugins/siteorigin-panels/). Simply activate the plugin and you can use FullSingle Layouts with _any_ existing WordPress theme:
 
-[youtube https://www.youtube.com/watch?v=pbXgj2OJdAE]
+[youtube https://www.youtube.com/watch?v=-U0nZU6KmOk]
 
 = FullSingle Highlights: =
 
@@ -40,7 +40,7 @@ All layouts are designed and built by [One Page Love](https://onepagelove.com) -
 
 * Watch the [FullSingle Setup in 60s](https://onepagelove.com/go/fullsingle-setup)
 
-[youtube https://www.youtube.com/watch?v=pbXgj2OJdAE]
+[youtube https://www.youtube.com/watch?v=-U0nZU6KmOk]
 
 == Screenshots ==
 
