@@ -1,5 +1,9 @@
 <?php
 /**
+ * @package FullSingle
+ * @version 0.5.3.3
+ * @license GPL 2.0
+ *
  * This file represents an example of the code that themes would use to register
  * the required plugins.
  *
@@ -70,7 +74,7 @@ function fullsingle_register_required_plugins() {
 		array(
 			'name'      => 'Free Widgets Bundle by SiteOrigin',
 			'slug'      => 'so-widgets-bundle',
-			'required'  => false,
+			'required'  => true,
 		),
 
 
