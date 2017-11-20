@@ -7,9 +7,9 @@ Changes here are pushed to our [plugin page](https://wordpress.org/plugins/fulls
 ## Useful Links
 
 * [FullSingle Promo Page](https://onepagelove.com/go/fullsingle)
-* [FullSingle Newlsetter](https://onepagelove.com/go/fullsingle-newsletter)
+* [FullSingle Newsletter](https://onepagelove.com/go/fullsingle-newsletter)
 * [FullSingle Setup Video Tutorial](https://onepagelove.com/go/fullsingle-setup)
-* [FullSingle Demos](https://demo.onepagelove.com/fullsingle)
+* [FullSingle Demos](https://demo.onepagetemplates.com/fullsingle)
 
 Hope you can make something awesome with FullSingle!
 

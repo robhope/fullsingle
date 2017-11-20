@@ -1,7 +1,7 @@
 === FullSingle by One Page Love ===
 Tags: builder, pages, layout, grid, onepage, one page, page builder
 Requires at least: 4.8.2
-Tested up to: 4.8.2
+Tested up to: 4.9
 Stable tag: 0.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -25,11 +25,11 @@ FullSingle is collection of beautiful free Landing Page layouts for [SiteOrigin'
 
 = FullSingle Layout Demos: =
 
-* [Bristle](https://demo.onepagelove.com/fullsingle/bristle-layout/) - portfolio grid layout
-* [Flyleaf](https://demo.onepagelove.com/fullsingle/flyleaf-layout/) - eBook landing page
-* [Me](https://demo.onepagelove.com/fullsingle/me-layout/) - minimal, personal presence
-* [Split](https://demo.onepagelove.com/fullsingle/split-layout/) - centrally-divided layout
-* [Vitae](https://demo.onepagelove.com/fullsingle/vitae-layout/) - cv-style layout
+* [Bristle](https://demo.onepagetemplates.com/fullsingle/bristle/) - portfolio grid layout
+* [Flyleaf](https://demo.onepagetemplates.com/fullsingle/flyleaf/) - eBook landing page
+* [Me](https://demo.onepagetemplates.com/fullsingle/me/) - minimal, personal presence
+* [Split](https://demo.onepagetemplates.com/fullsingle/split/) - centrally-divided layout
+* [Vitae](https://demo.onepagetemplates.com/fullsingle/vitae/) - cv-style layout
 * Many more upcoming - [get notified](https://onepagelove.com/go/fullsingle-newsletter)
 
 = Built by Industry Leaders: =
@@ -83,14 +83,14 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 * All layouts: Added copyright footers
 
 = 0.5 - 17 August 2017 =
-* New Layout: Bristle is a minimal Portfolio layout with a grid of projects that link out. Features include header logo or image, custom navigation and a project grid. ([see demo](https://demo.onepagelove.com/fullsingle/bristle-layout/))
+* New Layout: Bristle is a minimal Portfolio layout with a grid of projects that link out. Features include header logo or image, custom navigation and a project grid. ([see demo](https://demo.onepagetemplates.com/fullsingle/bristle/))
 
 = 0.4.1 - 11 August 2017 =
-* Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
+* Improvement: Tightening of responsive styles on the new Flyleaf layout ([see demo](https://demo.onepagetemplates.com/fullsingle/flyleaf/))
 
 = 0.4 - 11 August 2017 =
 * Improvement: Changed plugin version number to match layouts eg. 0.4 means 4 available layouts
-* New Layout: Flyleaf - an eBook landing page ([see demo](https://demo.onepagelove.com/fullsingle/flyleaf-layout/))
+* New Layout: Flyleaf - an eBook landing page ([see demo](https://demo.onepagetemplates.com/fullsingle/flyleaf/))
 
 = 0.1.8 - 01 August 2017 =
 * Improvement: Introduced background-color to HTML element
@@ -127,7 +127,7 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 * Feature: JSON files working within framework
 
 = 0.0.9 - 17 July 2017 =
-* New Layout: Split - centrally-divided layout ([see demo](https://demo.onepagelove.com/fullsingle/split-layout/))
+* New Layout: Split - centrally-divided layout ([see demo](https://demo.onepagetemplates.com/fullsingle/split/))
 
 = 0.0.8 - 14 July 2017 =
 * Feature: Customizer panel added
@@ -136,13 +136,13 @@ No, only with SiteOrigin's Free [Page Builder](https://wordpress.org/plugins/sit
 * Feature: Integration of accreditation
 
 = 0.0.6 - 13 July 2017 =
-* New Layout: Me - minimal, personal presence ([see demo](https://demo.onepagelove.com/fullsingle/me-layout/))
+* New Layout: Me - minimal, personal presence ([see demo](https://demo.onepagetemplates.com/fullsingle/me/))
 
 = 0.0.5 - 13 July 2017 =
 * Improvement: Removed images within plugin
 
 = 0.0.4 - 13 July 2017 =
-* New Layout: Vitae - CV-style One Pager ([see demo](https://demo.onepagelove.com/fullsingle/vitae-layout/))
+* New Layout: Vitae - CV-style One Pager ([see demo](https://demo.onepagetemplates.com/fullsingle/vitae/))
 
 = 0.0.3 - 6 July 2017 =
 * Bug fix: Fixed body color bug

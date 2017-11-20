@@ -2,7 +2,7 @@
 /**
  *
  * @package FullSingle
- * @version 0.5.3
+ * @version 0.5.3.2
  * @license GPL 2.0
  *
 */
@@ -34,7 +34,7 @@ function fullsingle_customizer_setup_documentation ( $wp_customize ) {
         'description' => '<span style="font-style: normal">
         <ul>
         <li><b style="display: inline-block; width: 80px;">Watch:</b> <a href="https://onepagelove.com/go/fullsingle-setup">FullSingle 60s Setup</a></li>
-        <li><b style="display: inline-block; width: 80px;">Examples:</b> <a href="https://demo.onepagelove.com/fullsingle" target="_blank">FullSingle Demos</a></li>
+        <li><b style="display: inline-block; width: 80px;">Examples:</b> <a href="https://demo.onepagetemplates.com/fullsingle" target="_blank">FullSingle Demos</a></li>
         <li><b style="display: inline-block; width: 80px;">Help?</b> <a href="#fullsingle_section_support" rel="tc-section">Visit Support Section</a></li>
         </ul>
         <hr style="margin-top: 20px; margin-bottom: 20px;" />        
