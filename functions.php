@@ -2,7 +2,7 @@
 
 /**
  * @package FullSingle
- * @version 0.5.3.3
+ * @version 0.5.4
  * @license GPL 2.0
  *
 */

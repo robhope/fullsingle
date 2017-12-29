@@ -2,7 +2,7 @@
 /**
  *
  * @package FullSingle
- * @version 0.5.3
+ * @version 0.5.4
  * @license GPL 2.0
  *
 */
@@ -38,12 +38,11 @@ function fullsingle_add_customizer_styles_to_head() {
 	// Set directory of Layout customizer styles
 	$appearance_dir = plugin_dir_path( __FILE__ ) . '../customizer/appearance';
 
-	if ( is_page_template( $template_url ) ) {
-
-		include( $appearance_dir . '/' . $template_name . '/styles.php' ); 
-
-	};
-
+	if 		( is_page_template( "page-template-page-fullsingle-bristle" ) ) { include( $appearance_dir . '/bristle/styles.php' 	); }
+	elseif 	( is_page_template( "page-template-page-fullsingle-flyleaf" ) ) { include( $appearance_dir . '/flyleaf/styles.php' 	); }
+	elseif 	( is_page_template( "page-template-page-fullsingle-me" 		) ) { include( $appearance_dir . '/me/styles.php' 		); }
+	elseif 	( is_page_template( "page-template-page-fullsingle-split" 	) ) { include( $appearance_dir . '/split/styles.php' 	); }
+	elseif 	( is_page_template( "page-template-page-fullsingle-vitae" 	) ) { include( $appearance_dir . '/vitae/styles.php' 	); };			
 }
 
 add_action('wp_head', 'fullsingle_add_customizer_styles_to_head', 11);
