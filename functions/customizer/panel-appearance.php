@@ -2,7 +2,7 @@
 /**
  *
  * @package FullSingle
- * @version 0.5.4
+ * @version 0.5.4.1
  * @license GPL 2.0
  *
 */
@@ -30,10 +30,6 @@ add_action('customize_register' , 'fullsingle_customizer_setup_appearance_contro
 #-------------------------------------------------------------------------------  
 
 function fullsingle_add_customizer_styles_to_head() {
-
-	// Get name of page template
-    $template_url 	= get_page_template_slug(); 
-    $template_name 	= substr($template_url, 26, -4);
 
 	// Set directory of Layout customizer styles
 	$appearance_dir = plugin_dir_path( __FILE__ ) . '../customizer/appearance';
